@@ -2,7 +2,7 @@
 
 var dt = GetDT()
 
-// Movement code.
+// -----Movement code!-----
 var xMove = CheckAxis( myDevice,gp_axislh,ord( "A" ),ord( "D" ) ) * moveSpeed * dt
 var yMove = 0.0
 if( canJump || ( xMove != 0.0 && GetMagnitude( xMove ) != wallDir ) )
@@ -10,6 +10,7 @@ if( canJump || ( xMove != 0.0 && GetMagnitude( xMove ) != wallDir ) )
 	if( CheckAxis( myDevice,gp_axislv,ord( "W" ),ord( "S" ) ) < 0.0 )
 	{
 		jumping = true
+		image_index = 4
 	}
 }
 
@@ -23,6 +24,8 @@ if( jumping )
 grav += gravAcc * dt
 yMove += grav * dt
 
+if( grav > jumpPower ) image_index = 5
+
 // Cache magnitude of test move variables.
 var xDir = GetMagnitude( xMove )
 var yDir = GetMagnitude( yMove )
@@ -30,7 +33,9 @@ var yDir = GetMagnitude( yMove )
 if( xDir != 0 )
 {
 	image_xscale = xDir
-	image_index += 0.3
+	// Handle walk animation.
+	image_index += 0.4
+	if( image_index > 3 ) image_index = 0
 }
 
 // Check if place where we're moving is free and move if so.
@@ -50,6 +55,7 @@ else
 	jumping = false
 	canJump = false
 	wallDir = xDir
+	image_index = 7
 }
 
 if( tilemap_get_at_pixel( tilemap,x,y + yMove + halfHeight * yDir ) <= 0 )
@@ -61,4 +67,37 @@ else if( yDir > 0 )
 	grav = 0.0
 	jumping = false
 	canJump = true
+	if( image_index > 3 ) image_index = 6
+}
+
+
+var xShotVel = CheckAxis( myDevice,gp_axisrh,vk_left,vk_right )
+var yShotVel = CheckAxis( myDevice,gp_axisrv,vk_up,vk_down )
+
+if( abs( xShotVel ) > abs( yShotVel ) )
+{
+	xShotVel = GetMagnitude( xShotVel )
+	yShotVel = 0.0
+}
+else
+{
+	xShotVel = 0.0
+	yShotVel = GetMagnitude( yShotVel )
+}
+
+// -----Shooting code!-----
+if( shotTimer.curTime > shotTimer.maxTime &&
+	( xShotVel != 0.0 || yShotVel != 0.0 ) )
+{
+	shotTimer.curTime = 0.0
+	
+	var bullet = instance_create_layer( x,y,"MainLayer",PlayerBullet )
+	bullet.playerTeam = myDevice
+	bullet.xVel = xShotVel * bulletMoveSpeed
+	bullet.yVel = yShotVel * bulletMoveSpeed
+	
+	if( xShotVel > 0.0 ) bullet.image_angle = 0
+	else if( xShotVel < 0.0 ) bullet.image_angle = 180
+	else if( yShotVel > 0.0 ) bullet.image_angle = 270
+	else if( yShotVel < 0.0 ) bullet.image_angle = 90
 }

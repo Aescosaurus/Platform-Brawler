@@ -1,3 +1,6 @@
+global.SCREEN_WIDTH = 256
+global.SCREEN_HEIGHT = 144
+
 global.GRAVITY_ACCEL = 0.26
 
 // Players connected.

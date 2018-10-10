@@ -1,28 +1,28 @@
 {
-    "id": "b01d48f4-4dc8-46b5-85a4-3ddb4941b751",
+    "id": "32d72f1e-ada6-4441-9a59-f849242d0874",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "SetUpControllers",
+    "name": "Timer",
     "eventList": [
         {
-            "id": "395cce71-f3c0-42b8-9aa3-1935a5a32a37",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "b01d48f4-4dc8-46b5-85a4-3ddb4941b751"
-        },
-        {
-            "id": "df0c02f4-1d09-406e-9cd8-a30b63128702",
+            "id": "191b4236-a6ff-49f4-a924-257858cc362c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "b01d48f4-4dc8-46b5-85a4-3ddb4941b751"
+            "m_owner": "32d72f1e-ada6-4441-9a59-f849242d0874"
+        },
+        {
+            "id": "2e5e328a-d046-486a-9c46-dc0c55ee0aed",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "32d72f1e-ada6-4441-9a59-f849242d0874"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

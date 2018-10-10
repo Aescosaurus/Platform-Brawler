@@ -2,7 +2,7 @@
     "id": "01867911-fe28-488c-901b-4a00b745b99b",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "PlayerBullet",
+    "name": "PlayerBulletSpr",
     "For3D": false,
     "HTile": false,
     "VTile": false,
