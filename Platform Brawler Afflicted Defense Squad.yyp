@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "9614da6c-7fb9-482a-8f1a-9ec42c2978c4",
+            "Value": {
+                "id": "e14f5e85-46d0-44bf-ac18-876657294d00",
+                "resourcePath": "shaders\\Player3\\Player3.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "a01be0d8-c427-48dd-841f-bb1661729b65",
             "Value": {
                 "id": "204d09c1-4c7f-4b49-932f-32616a6adf14",
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "cb7da333-6737-408a-b4af-7d977a66a117",
+            "Value": {
+                "id": "ba476808-7c93-4e67-9a79-2e235580fe99",
+                "resourcePath": "shaders\\Player1\\Player1.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "5c2857d1-ec1b-4017-b5f1-23cf968b201b",
@@ -300,6 +316,14 @@
                 "id": "757d3e8e-a6bd-4113-adfc-8e59a47f35ee",
                 "resourcePath": "views\\ea622d3a-9eb5-41b1-bd47-217070abd0f7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec2b5001-3e25-41ae-b117-88e8212eb023",
+            "Value": {
+                "id": "a6722116-475c-4cdf-9242-26504dc76581",
+                "resourcePath": "shaders\\Player4\\Player4.yy",
+                "resourceType": "GMShader"
             }
         },
         {
