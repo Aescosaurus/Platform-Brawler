@@ -36,3 +36,5 @@ wallDir = 0
 
 shotTimer = CreateTimer( 0.27 )
 bulletMoveSpeed = 4.6
+
+hp = 3

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2fb07ea0-427e-4cd8-ae6a-7355d77c7cbf",
+            "Value": {
+                "id": "5a008276-019c-43b1-aa47-1079dbb54c1b",
+                "resourcePath": "sprites\\RespawnerSpr\\RespawnerSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32d72f1e-ada6-4441-9a59-f849242d0874",
             "Value": {
                 "id": "9bf8e0a0-ab87-4263-8754-9f760ebc42b6",
@@ -108,6 +116,14 @@
                 "id": "1e91aab2-78b4-47f0-b199-99c24c408f7c",
                 "resourcePath": "rooms\\MainRoom\\MainRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "45c82b59-a218-4e7d-a387-7a05f071170f",
+            "Value": {
+                "id": "d81def97-56a4-437c-842e-0e31d784be64",
+                "resourcePath": "objects\\Respawner\\Respawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "c135ec15-400d-4427-89e6-d361a1b1ba39",
+            "Value": {
+                "id": "4adecdfb-e4e7-4a7a-8c67-99322ca57643",
+                "resourcePath": "scripts\\RespawnPlayer\\RespawnPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cb7da333-6737-408a-b4af-7d977a66a117",
             "Value": {
                 "id": "ba476808-7c93-4e67-9a79-2e235580fe99",
@@ -349,7 +373,8 @@
         "229c2236-fd60-4fce-b749-2a4393f8c97d",
         "76877995-3146-4a21-9047-571e03c21ff0",
         "d34cd944-dc8f-4633-bc91-c0a509a1ab7d",
-        "1d1c9617-ccb4-41a8-b1d8-19c822f8abf0"
+        "1d1c9617-ccb4-41a8-b1d8-19c822f8abf0",
+        "c135ec15-400d-4427-89e6-d361a1b1ba39"
     ],
     "tutorial": ""
 }
