@@ -7,8 +7,7 @@ var x_move = ( keyboard_check( ord( "D" ) ) - keyboard_check( ord( "A" ) ) ) * m
 var y_move = 0.0
 if( can_jump || ( x_move != 0.0 && get_magnitude( x_move ) != wall_dir ) )
 {
-	var pressing_jump = keyboard_check( ord( "W" ) )
-	if( pressing_jump )
+	if( keyboard_check( ord( "W" ) ) )
 	{
 		jumping = true
 		image_index = 4
@@ -100,13 +99,13 @@ else
 	y_shot_vel = get_magnitude( y_shot_vel )
 }
 
-if( x_dir == 0.0 && x_shot_vel != 0.0 ) image_xscale = get_magnitude( x_shot_vel )
-
 // -----Shooting code!-----
 if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 {
 	can_fire = false
 	alarm_set( 0,refire )
+	
+	if( x_dir == 0.0 && x_shot_vel != 0.0 ) image_xscale = get_magnitude( x_shot_vel )
 	
 	var bullet = instance_create_layer( x,y,"instances",bullet_obj )
 	bullet.direction = point_direction( 0,0,x_shot_vel,y_shot_vel )

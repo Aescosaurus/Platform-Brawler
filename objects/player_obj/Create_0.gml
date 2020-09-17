@@ -13,7 +13,10 @@ jump_pow = 4 * 25
 can_jump = false
 wall_dir = 0
 
-refire = 0.27
+refire = 0.12 * 60.0
 can_fire = false
 alarm_set( 0,refire )
-bullet_speed = 4.6
+bullet_speed = 6.6
+
+room_x = 10
+room_y = 10

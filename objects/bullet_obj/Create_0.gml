@@ -1,7 +1,4 @@
-/// @description init vars
+lifetime = 0.07 * 60.0
+alarm_set( 0,lifetime )
 
-playerTeam = 0
-xVel = 0.0
-yVel = 0.0
-
-alarm_set( 0,0.46 )
+tilemap = layer_tilemap_get_id( "tiles" )
