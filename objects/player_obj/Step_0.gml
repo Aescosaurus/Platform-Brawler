@@ -43,8 +43,8 @@ if( x_dir != 0 )
 	if( !jumping )
 	{
 		// Handle walk animation.
-		image_index += 0.4
-		if( image_index > 3 ) image_index = 0
+		image_index += 10.0 * dt
+		if( image_index >= 3 ) image_index = 0
 	}
 }
 
@@ -130,5 +130,5 @@ if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 
 if( ouch_frames )
 {
-	image_index = 1
+	image_index = 11
 }
