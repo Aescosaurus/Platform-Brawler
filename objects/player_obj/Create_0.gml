@@ -18,5 +18,4 @@ can_fire = false
 alarm_set( 0,refire )
 bullet_speed = 6.6
 
-room_x = 10
-room_y = 10
+updated_rpos = false

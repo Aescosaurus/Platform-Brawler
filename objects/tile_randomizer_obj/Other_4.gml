@@ -8,6 +8,8 @@ for( var iy = 0; iy < height; ++iy )
 			var rx = player_obj.room_x * 2
 			var ry = player_obj.room_y * 2
 			
+			print( string( rx ) + " " + string( ry ) )
+			
 			// delete all leftover tiles with id of 4 at end of room
 			// doors are decoration on top of tile walls
 			var door = instance_create_layer( ix * tile_width,iy * tile_height,"instances",door_obj )
@@ -46,3 +48,5 @@ if( instance_number( door_obj ) < 1 )
 {
 	gen_rand_room()
 }
+
+randomize()

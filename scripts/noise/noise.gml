@@ -14,6 +14,4 @@ for( var iy = 0; iy <= abs( ny ); ++iy )
 	}
 }
 
-randomize()
-
 return( val )
