@@ -5,9 +5,10 @@ var dt = get_dt()
 // -----Movement code!-----
 var x_move = ( keyboard_check( ord( "D" ) ) - keyboard_check( ord( "A" ) ) ) * move_speed * dt
 var y_move = 0.0
+
 if( can_jump || ( x_move != 0.0 && get_magnitude( x_move ) != wall_dir ) )
 {
-	if( keyboard_check( ord( "W" ) ) )
+	if( keyboard_check( ord( "W" ) ) && !ouch_frames )
 	{
 		jumping = true
 		image_index = 4
@@ -15,7 +16,7 @@ if( can_jump || ( x_move != 0.0 && get_magnitude( x_move ) != wall_dir ) )
 }
 
 // Move up if jumping.
-if( jumping )
+if( jumping && !ouch_frames )
 {
 	y_move -= jump_pow * dt
 }
@@ -25,6 +26,12 @@ grav += grav_acc * dt
 y_move += grav * dt
 
 if( grav > jump_pow ) image_index = 5
+
+if( ouch_frames )
+{
+	x_move = ouch_xvel * dt
+	y_move += ouch_yvel * dt
+}
 
 // Cache magnitude of test move variables.
 var x_dir = get_magnitude( x_move )
@@ -64,6 +71,7 @@ else
 	jumping = false
 	can_jump = false
 	wall_dir = x_dir
+	ouch_frames = false
 	image_index = 7
 }
 
@@ -81,6 +89,7 @@ else if( y_dir > 0 )
 	grav = 0.0
 	jumping = false
 	can_jump = true
+	ouch_frames = false
 	if( image_index > 3 && image_index < 8 ) image_index = 6
 }
 
@@ -117,4 +126,9 @@ if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 	// else if( xShotVel < 0.0 ) image_index = 10
 	// else if( xShotVel > 0.0 ) image_index = 11
 	else image_index = 10
+}
+
+if( ouch_frames )
+{
+	image_index = 1
 }

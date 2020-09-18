@@ -1,5 +1,3 @@
-/// @description init vars
-
 move_speed = 60.0
 tilemap = layer_tilemap_get_id( "tiles" )
 
@@ -19,3 +17,10 @@ alarm_set( 0,refire )
 bullet_speed = 6.6
 
 updated_rpos = false
+
+ouch_frames = false
+ouch_dur = 0.3 * 60.0
+ouch_xvel = 0.0
+ouch_yvel = 0.0
+knockback_x = 70.0
+knockback_y = 50.0

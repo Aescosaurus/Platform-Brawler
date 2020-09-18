@@ -63,6 +63,26 @@
             "enumb": 4,
             "eventtype": 7,
             "m_owner": "0d4e54dc-3e67-4dc3-acdf-efe8750660ce"
+        },
+        {
+            "id": "cc005042-f05f-46d8-8664-174ca50e2b9f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "4f1b3d58-a6ba-4b9f-a10e-a4fd9a595555",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "0d4e54dc-3e67-4dc3-acdf-efe8750660ce"
+        },
+        {
+            "id": "e5a1c363-7760-4edd-bf68-84ccf8f0c397",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "0d4e54dc-3e67-4dc3-acdf-efe8750660ce"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
