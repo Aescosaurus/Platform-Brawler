@@ -71,19 +71,19 @@
             }
         },
         {
+            "Key": "1db4b235-2385-4aef-809d-db0ec809545e",
+            "Value": {
+                "id": "e7dfa5e9-ea5f-4a27-bdfe-5669dc90e93a",
+                "resourcePath": "scripts\\gen_enemies\\gen_enemies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1e50e334-afdd-45be-9c7b-6b02bb3506c8",
             "Value": {
                 "id": "1f6b274b-6d75-4406-86fa-b661f2bcc02b",
                 "resourcePath": "views\\1e50e334-afdd-45be-9c7b-6b02bb3506c8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "229c2236-fd60-4fce-b749-2a4393f8c97d",
-            "Value": {
-                "id": "4b7c0f32-cda1-44b8-83da-f4f69a363027",
-                "resourcePath": "scripts\\get_magnitude\\get_magnitude.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -122,7 +122,7 @@
             "Key": "360160dd-2dc7-4882-a7d0-14fc4ae33600",
             "Value": {
                 "id": "1e91aab2-78b4-47f0-b199-99c24c408f7c",
-                "resourcePath": "rooms\\main_room\\main_room.yy",
+                "resourcePath": "rooms\\level1\\level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -172,6 +172,14 @@
                 "id": "579b9ac6-1285-49d4-9d60-e7db5e694998",
                 "resourcePath": "views\\6fd5e6b6-ecc2-48cc-9d68-6e83ef5019ac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71df11a9-2c64-41e4-b153-5fa4e2b85856",
+            "Value": {
+                "id": "4e2e6bc4-1491-4dd6-8295-a04f8b253277",
+                "resourcePath": "objects\\enemy_spawn_obj\\enemy_spawn_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "e4d04525-e66b-42ad-aae3-410727d832a4",
+            "Value": {
+                "id": "27c08092-7bea-4c60-b920-d185a494effd",
+                "resourcePath": "views\\e4d04525-e66b-42ad-aae3-410727d832a4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e9c8d74d-9422-48c8-883e-cb19bf3d6ad8",
             "Value": {
                 "id": "1ca149e3-4827-498c-8464-b93131239378",
@@ -355,9 +371,9 @@
         "192017cc-d654-48e2-a4a2-4c172ab49ac5",
         "dea3feda-6e6a-40d8-9990-82f12bb11fc9",
         "7a2a05fb-b183-4c1d-8190-e5e202177f8d",
-        "229c2236-fd60-4fce-b749-2a4393f8c97d",
         "c695ef59-176b-4ada-a12d-1e45517628b4",
-        "4bd0789f-292d-4d85-8452-249d23cb63ed"
+        "4bd0789f-292d-4d85-8452-249d23cb63ed",
+        "1db4b235-2385-4aef-809d-db0ec809545e"
     ],
     "tutorial": ""
 }

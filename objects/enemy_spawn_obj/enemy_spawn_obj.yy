@@ -1,14 +1,14 @@
 {
-    "id": "45c82b59-a218-4e7d-a387-7a05f071170f",
+    "id": "71df11a9-2c64-41e4-b153-5fa4e2b85856",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ghost_obj",
+    "name": "enemy_spawn_obj",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "4f1b3d58-a6ba-4b9f-a10e-a4fd9a595555",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2fb07ea0-427e-4cd8-ae6a-7355d77c7cbf",
-    "visible": true
+    "spriteId": "072a4f0c-2198-429d-ab1d-618660fe8c9f",
+    "visible": false
 }

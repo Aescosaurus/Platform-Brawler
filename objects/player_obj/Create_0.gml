@@ -1,8 +1,8 @@
 move_speed = 60.0
 tilemap = layer_tilemap_get_id( "tiles" )
 
-h_width = sprite_get_width( sprite_index ) / 2
-h_height = sprite_get_height( sprite_index ) / 2
+h_width = sprite_width / 2
+h_height = sprite_height / 2
 
 grav_acc = 0.26 * 25.0 * 25.0
 grav = 0.0
@@ -24,3 +24,5 @@ ouch_xvel = 0.0
 ouch_yvel = 0.0
 knockback_x = 70.0
 knockback_y = 50.0
+
+visited_rooms = ds_map_create()

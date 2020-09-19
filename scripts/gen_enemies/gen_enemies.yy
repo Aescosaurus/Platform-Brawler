@@ -1,8 +1,8 @@
 {
-    "id": "229c2236-fd60-4fce-b749-2a4393f8c97d",
+    "id": "1db4b235-2385-4aef-809d-db0ec809545e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "get_magnitude",
+    "name": "gen_enemies",
     "IsCompatibility": false,
     "IsDnD": false
 }

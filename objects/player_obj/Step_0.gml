@@ -6,7 +6,7 @@ var dt = get_dt()
 var x_move = ( keyboard_check( ord( "D" ) ) - keyboard_check( ord( "A" ) ) ) * move_speed * dt
 var y_move = 0.0
 
-if( can_jump || ( x_move != 0.0 && get_magnitude( x_move ) != wall_dir ) )
+if( can_jump || ( x_move != 0.0 && sign( x_move ) != wall_dir ) )
 {
 	if( keyboard_check( ord( "W" ) ) && !ouch_frames )
 	{
@@ -34,8 +34,8 @@ if( ouch_frames )
 }
 
 // Cache magnitude of test move variables.
-var x_dir = get_magnitude( x_move )
-var y_dir = get_magnitude( y_move )
+var x_dir = sign( x_move )
+var y_dir = sign( y_move )
 
 if( x_dir != 0 )
 {
@@ -99,13 +99,13 @@ var y_shot_vel = keyboard_check( vk_down ) - keyboard_check( vk_up )
 
 if( abs( x_shot_vel ) > abs( y_shot_vel ) )
 {
-	x_shot_vel = get_magnitude( x_shot_vel )
+	x_shot_vel = sign( x_shot_vel )
 	y_shot_vel = 0.0
 }
 else
 {
 	x_shot_vel = 0.0
-	y_shot_vel = get_magnitude( y_shot_vel )
+	y_shot_vel = sign( y_shot_vel )
 }
 
 // -----Shooting code!-----
@@ -114,7 +114,7 @@ if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 	can_fire = false
 	alarm_set( 0,refire )
 	
-	if( x_dir == 0.0 && x_shot_vel != 0.0 ) image_xscale = get_magnitude( x_shot_vel )
+	if( x_dir == 0.0 && x_shot_vel != 0.0 ) image_xscale = sign( x_shot_vel )
 	
 	var bullet = instance_create_layer( x,y,"instances",bullet_obj )
 	bullet.direction = point_direction( 0,0,x_shot_vel,y_shot_vel )

@@ -1,3 +1,4 @@
+// Generate doors.
 for( var iy = 0; iy < height; ++iy )
 {
 	for( var ix = 0; ix < width; ++ix )
@@ -8,8 +9,6 @@ for( var iy = 0; iy < height; ++iy )
 			var rx = player_obj.room_x * 2
 			var ry = player_obj.room_y * 2
 			
-			// delete all leftover tiles with id of 4 at end of room
-			// doors are decoration on top of tile walls
 			var door = instance_create_layer( ix * tile_width,iy * tile_height,"instances",door_obj )
 			door.image_index = 1
 			
@@ -42,9 +41,30 @@ for( var iy = 0; iy < height; ++iy )
 	}
 }
 
+// Ensure there is at least 1 door.
 if( instance_number( door_obj ) < 1 )
 {
 	gen_rand_room()
+	return
+}
+
+var room_str = string( player_obj.room_x ) + " " + string( player_obj.room_y )
+if( !ds_map_exists( player_obj.visited_rooms,room_str ) )
+{
+	var enemy_count = 5
+	var enemies = gen_enemies( enemy_count )
+	var spawn_count = instance_number( enemy_spawn_obj )
+	for( var i = 0; i < array_length_1d( enemies ); ++i )
+	{
+		var cur_spawn = instance_find( enemy_spawn_obj,random_range( 0,spawn_count - 1 ) )
+		instance_create_layer( cur_spawn.x,cur_spawn.y,"instances",enemies[i] )
+	}
+}
+else
+{
+	// Destroy doors.
+	var temp_enemy = instance_create_layer( 0,0,"instances",enemy_base )
+	instance_destroy( temp_enemy )
 }
 
 randomize()

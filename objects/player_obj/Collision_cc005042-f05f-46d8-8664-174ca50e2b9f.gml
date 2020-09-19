@@ -4,7 +4,7 @@ if( !ouch_frames )
 	
 	var x_diff = other.x - x
 	
-	ouch_xvel = -get_magnitude( x_diff ) * knockback_x
+	ouch_xvel = -sign( x_diff ) * knockback_x
 	ouch_yvel = -knockback_y
 	
 	jumping = false
