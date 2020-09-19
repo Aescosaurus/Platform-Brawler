@@ -1,7 +1,7 @@
 var dt = get_dt()
 
-var x_move = x_vel
-var y_move = y_vel
+var x_move = x_vel * dt
+var y_move = y_vel * dt
 
 grav += grav_acc * dt
 y_move += grav * dt
