@@ -18,4 +18,6 @@ if( instance_number( enemy_base ) <= 1 )
 	
 	// todo trigger cool anim instead of destroy
 	door_obj.image_index = 2
+	
+	instance_destroy( en_bullet_base )
 }

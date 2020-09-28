@@ -1,4 +1,11 @@
+tilemap = layer_tilemap_get_id( "tiles" )
+width = tilemap_get_width( tilemap )
+height = tilemap_get_height( tilemap )
+tile_width = tilemap_get_tile_width( tilemap )
+tile_height = tilemap_get_tile_height( tilemap )
+
 // Generate doors.
+var player = instance_find( player_obj,0 )
 for( var iy = 0; iy < height; ++iy )
 {
 	for( var ix = 0; ix < width; ++ix )
@@ -6,8 +13,8 @@ for( var iy = 0; iy < height; ++iy )
 		var tile = tilemap_get( tilemap,ix,iy )
 		if( tile == 4 )
 		{
-			var rx = player_obj.room_x * 2
-			var ry = player_obj.room_y * 2
+			var rx = player.room_x * 2
+			var ry = player.room_y * 2
 			
 			var door = instance_create_layer( ix * tile_width,iy * tile_height,"instances",door_obj )
 			door.image_index = 1
@@ -48,8 +55,8 @@ if( instance_number( door_obj ) < 1 )
 	return
 }
 
-var room_str = string( player_obj.room_x ) + " " + string( player_obj.room_y )
-if( !ds_map_exists( player_obj.visited_rooms,room_str ) )
+var room_str = string( player.room_x ) + " " + string( player.room_y )
+if( !ds_map_exists( player.visited_rooms,room_str ) )
 {
 	var enemy_count = 5
 	var enemies = gen_enemies( enemy_count )
