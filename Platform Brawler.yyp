@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "221f1406-c941-4139-9bc4-a2d860cc5912",
+            "Value": {
+                "id": "b8a7b2be-1c68-412f-b5e7-d401a4ba65e5",
+                "resourcePath": "sprites\\spider_spr\\spider_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2cc09410-d41c-4b6e-895c-c3b4af61aec0",
             "Value": {
                 "id": "5311f4fe-2d81-43cf-a461-21438b2a48ea",
@@ -156,6 +164,14 @@
                 "id": "3f654eff-75f3-4824-b6ba-0fa8e4bd1c6a",
                 "resourcePath": "scripts\\gen_rand_room\\gen_rand_room.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c1df916-10a8-4db0-88f0-19ac7f95e2f5",
+            "Value": {
+                "id": "b99591cc-3eba-4ab5-9f30-64c3123aa6fe",
+                "resourcePath": "objects\\enemy_list\\enemy_list.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -243,6 +259,14 @@
             "Value": {
                 "id": "b8c993b8-dbf4-42a2-9327-9b3f22391bca",
                 "resourcePath": "views\\8215df26-d530-4117-9b11-67eb2b6a88c6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8f43f274-babb-4385-acd9-26eece885649",
+            "Value": {
+                "id": "73a380a6-91c1-462e-821f-f69a271bc3be",
+                "resourcePath": "views\\8f43f274-babb-4385-acd9-26eece885649.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -355,6 +379,14 @@
             "Value": {
                 "id": "531e6ccb-9767-492c-aa57-476e5349a797",
                 "resourcePath": "objects\\door_obj\\door_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d5c6e393-1154-47fe-a3c7-063f6c04fb56",
+            "Value": {
+                "id": "e9449621-71c1-44d7-95e7-c16d0908a716",
+                "resourcePath": "objects\\spider_obj\\spider_obj.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -10,3 +10,5 @@ x_vel = 0.0
 y_vel = 0.0
 
 hp = 1
+
+image_index = random_range( 0,image_number )
