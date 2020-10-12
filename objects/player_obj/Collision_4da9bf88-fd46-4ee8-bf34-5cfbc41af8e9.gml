@@ -13,3 +13,5 @@ if( !ouch_frames )
 	ouch_frames = true
 	alarm_set( 1,ouch_dur )
 }
+
+instance_destroy( other )

@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "34dd11b4-4419-4e88-8ada-9047d4e4e566",
+            "Value": {
+                "id": "83fca1af-7ef3-4893-8448-d1967d37a317",
+                "resourcePath": "tilesets\\blue_tiles\\blue_tiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "34e9f637-0b8e-450c-9a0d-1363066be2b6",
             "Value": {
                 "id": "f519fd86-be61-4ac6-acf7-50648f8552d5",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "6873ab14-e2c8-4f02-a0bf-74d4925d9b35",
+            "Value": {
+                "id": "18624111-047e-45c4-86c9-dcb130156e17",
+                "resourcePath": "scripts\\get_difficulty\\get_difficulty.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "68b4cbdc-1bc0-4040-9431-cd6e5b4f53d0",
             "Value": {
                 "id": "26be6024-f9ef-4087-afb9-ffb5e867c6a4",
@@ -220,6 +236,14 @@
                 "id": "4e2e6bc4-1491-4dd6-8295-a04f8b253277",
                 "resourcePath": "objects\\enemy_spawn_obj\\enemy_spawn_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74f1f32b-6a45-42e2-b56a-1d8c2670910d",
+            "Value": {
+                "id": "56d5580c-72e9-4695-82c4-2b41f6e64902",
+                "resourcePath": "sprites\\blue_tiles_spr\\blue_tiles_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -260,6 +284,14 @@
                 "id": "b8c993b8-dbf4-42a2-9327-9b3f22391bca",
                 "resourcePath": "views\\8215df26-d530-4117-9b11-67eb2b6a88c6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87a68e26-5044-4e08-9ec0-7f5f1cfc0162",
+            "Value": {
+                "id": "dc59ff1e-49fd-4793-a62a-e9aaefeca4cd",
+                "resourcePath": "sprites\\knight_spr\\knight_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -477,6 +509,14 @@
                 "resourcePath": "views\\f836b863-25e2-4e83-8b94-50f78ba2672d.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fa9e82ed-66a5-4cef-8e66-33896351950d",
+            "Value": {
+                "id": "e1693ebd-ad81-4919-9901-67ea2d734644",
+                "resourcePath": "objects\\knight_obj\\knight_obj.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
@@ -487,7 +527,8 @@
         "c695ef59-176b-4ada-a12d-1e45517628b4",
         "4bd0789f-292d-4d85-8452-249d23cb63ed",
         "1db4b235-2385-4aef-809d-db0ec809545e",
-        "57ff5b30-1d62-4599-a2fc-cc627e1fa4af"
+        "57ff5b30-1d62-4599-a2fc-cc627e1fa4af",
+        "6873ab14-e2c8-4f02-a0bf-74d4925d9b35"
     ],
     "tutorial": ""
 }

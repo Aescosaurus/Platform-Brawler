@@ -1,4 +1,5 @@
 tilemap = layer_tilemap_get_id( "tiles" )
+tilemap_tileset( tilemap,tile_arr[get_difficulty()] )
 width = tilemap_get_width( tilemap )
 height = tilemap_get_height( tilemap )
 tile_width = tilemap_get_tile_width( tilemap )
@@ -49,11 +50,12 @@ for( var iy = 0; iy < height; ++iy )
 }
 
 // Ensure there is at least 1 door.
-// if( instance_number( door_obj ) < 1 )
-// {
-// 	gen_rand_room()
-// 	return
-// }
+if( instance_number( door_obj ) < 1 )
+{
+	++player.room_x
+	gen_rand_room()
+	return
+}
 
 var room_str = string( player.room_x ) + " " + string( player.room_y )
 if( !ds_map_exists( player.visited_rooms,room_str ) )

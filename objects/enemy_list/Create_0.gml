@@ -2,6 +2,7 @@
 starter[0] = ghost_obj
 starter[1] = spider_obj
 starter[2] = mage_obj
+starter[3] = knight_obj
 
 // medium difficulty
 mid[0] = noone

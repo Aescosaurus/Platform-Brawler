@@ -27,5 +27,5 @@ knockback_y = 50.0
 
 visited_rooms = ds_map_create()
 
-room_x = irandom_range( 5,20 )
+room_x = 0
 room_y = 0
