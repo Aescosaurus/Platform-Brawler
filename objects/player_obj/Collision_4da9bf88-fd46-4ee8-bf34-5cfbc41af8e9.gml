@@ -2,6 +2,8 @@ if( !ouch_frames )
 {
 	// --hp and knockback and invul time
 	
+	--hp
+	
 	var x_diff = other.x - x
 	
 	ouch_xvel = -sign( x_diff ) * knockback_x

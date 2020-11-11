@@ -119,11 +119,27 @@
             }
         },
         {
+            "Key": "2a64306f-f47f-4dd9-9137-f286c0c4acb4",
+            "Value": {
+                "id": "fd1e0475-c03c-4c4e-adf4-b55f5fab587d",
+                "resourcePath": "sprites\\heart_spr\\heart_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2cc09410-d41c-4b6e-895c-c3b4af61aec0",
             "Value": {
                 "id": "5311f4fe-2d81-43cf-a461-21438b2a48ea",
                 "resourcePath": "views\\2cc09410-d41c-4b6e-895c-c3b4af61aec0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2e17bd2c-6ef4-4138-a8a9-00302567c080",
+            "Value": {
+                "id": "f62f4246-7a9b-4fa3-a606-7c0be66ddd97",
+                "resourcePath": "sprites\\game_over_spr\\game_over_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "7855ffb0-1078-49fa-8d02-39d1866773f2",
+            "Value": {
+                "id": "50b2f3cd-7899-44d3-8f05-3f548179461e",
+                "resourcePath": "objects\\retry_button_obj\\retry_button_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7a2a05fb-b183-4c1d-8190-e5e202177f8d",
             "Value": {
                 "id": "c9fa6f63-f5a5-4b6e-bd81-f4121585a4c2",
@@ -316,6 +340,14 @@
                 "id": "b8c993b8-dbf4-42a2-9327-9b3f22391bca",
                 "resourcePath": "views\\8215df26-d530-4117-9b11-67eb2b6a88c6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87928b5f-0145-4f2d-ae52-3c93ff0264c0",
+            "Value": {
+                "id": "1bbc9a87-0eed-46af-8e45-94a18a4738a7",
+                "resourcePath": "sprites\\empty_heart_spr\\empty_heart_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -412,6 +444,14 @@
                 "id": "d272084a-607c-4704-b03c-a45d216e3392",
                 "resourcePath": "rooms\\level6\\level6.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c2bfa0f3-894d-4870-b9dc-2927d3f36793",
+            "Value": {
+                "id": "3ca09965-fde1-4d60-bed8-ac77bf84ddb9",
+                "resourcePath": "sprites\\retry_button_spr\\retry_button_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

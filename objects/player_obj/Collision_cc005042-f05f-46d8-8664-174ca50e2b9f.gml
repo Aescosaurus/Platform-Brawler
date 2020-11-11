@@ -1,6 +1,7 @@
 if( !ouch_frames )
 {
 	// --hp and knockback and invul time
+	--hp
 	
 	var x_diff = other.x - x
 	
