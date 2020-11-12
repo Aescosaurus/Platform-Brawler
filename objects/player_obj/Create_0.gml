@@ -27,8 +27,11 @@ knockback_y = 50.0
 
 visited_rooms = ds_map_create()
 
-room_x = -5
+room_x = 0
 room_y = 0
 
 max_hp = 5
 hp = max_hp
+
+items[0] = noone
+item_count = 0

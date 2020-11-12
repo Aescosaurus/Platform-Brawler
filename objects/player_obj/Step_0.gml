@@ -126,6 +126,14 @@ if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 	// else if( xShotVel < 0.0 ) image_index = 10
 	// else if( xShotVel > 0.0 ) image_index = 11
 	else image_index = 10
+	
+	for( var i = 0; i < item_count; ++i )
+	{
+		with( items[i] )
+		{
+			event_user( 0 )
+		}
+	}
 }
 
 if( ouch_frames )

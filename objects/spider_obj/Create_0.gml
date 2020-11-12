@@ -5,7 +5,7 @@ event_inherited()
 // move_speed = random_range( 28,32 ) - 8
 
 refire = random_range( 0.6,1.3 ) * 60.0
-alarm_set( 0,refire )
+alarm_set( 0,random_range( 0,refire ) )
 
 attack_range = 64 * 2
 
