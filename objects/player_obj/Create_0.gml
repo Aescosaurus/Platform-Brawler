@@ -35,3 +35,5 @@ hp = max_hp
 
 items[0] = noone
 item_count = 0
+
+look_dir = 1

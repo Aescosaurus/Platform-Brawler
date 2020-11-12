@@ -6,6 +6,8 @@ var dt = get_dt()
 var x_move = ( keyboard_check( ord( "D" ) ) - keyboard_check( ord( "A" ) ) ) * move_speed * dt
 var y_move = 0.0
 
+if( x_move != 0.0 ) look_dir = sign( x_move )
+
 if( can_jump || ( x_move != 0.0 && sign( x_move ) != wall_dir ) )
 {
 	if( keyboard_check( ord( "W" ) ) && !ouch_frames )
@@ -96,6 +98,8 @@ else if( y_dir > 0 )
 
 var x_shot_vel = keyboard_check( vk_right ) - keyboard_check( vk_left )
 var y_shot_vel = keyboard_check( vk_down ) - keyboard_check( vk_up )
+
+if( x_shot_vel != 0.0 ) look_dir = sign( x_shot_vel )
 
 if( abs( x_shot_vel ) > abs( y_shot_vel ) )
 {

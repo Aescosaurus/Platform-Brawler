@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "413b2346-b39e-4335-bc13-b87a829572f2",
+            "Value": {
+                "id": "02bde507-7760-4077-b056-095d1792e67e",
+                "resourcePath": "sprites\\noob_sword_spr\\noob_sword_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41c70dc9-a6ba-43db-8728-e17a6e2964e6",
             "Value": {
                 "id": "d180a947-6368-48a0-a082-d0036ebf6ee6",
@@ -236,6 +244,14 @@
                 "id": "d81def97-56a4-437c-842e-0e31d784be64",
                 "resourcePath": "objects\\ghost_obj\\ghost_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "470aa910-6b2f-4f0f-b14e-4f50f177240e",
+            "Value": {
+                "id": "e142a8c6-28a1-471c-bc66-761c284adfd4",
+                "resourcePath": "sprites\\flame_spell_spr\\flame_spell_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "8deb9729-26a3-4ca5-ab59-2d4691ee7a47",
+            "Value": {
+                "id": "7b53bbeb-2423-4b1d-bf76-50a8ff25f1f6",
+                "resourcePath": "objects\\sword_lob_obj\\sword_lob_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f43f274-babb-4385-acd9-26eece885649",
             "Value": {
                 "id": "73a380a6-91c1-462e-821f-f69a271bc3be",
@@ -444,6 +468,22 @@
                 "id": "6813d565-e536-47c4-8c9b-4a6c96fc61e9",
                 "resourcePath": "views\\a2f4f174-383b-4c3d-8fa7-f3058ec16642.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3740ef3-ff00-4b52-bdbc-4285d3c0dd63",
+            "Value": {
+                "id": "8bf1f6b5-e0ad-42fa-8ea5-6af407eee4df",
+                "resourcePath": "objects\\flame_spell_obj\\flame_spell_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6967631-c656-4d7e-a50c-8468f793fd95",
+            "Value": {
+                "id": "a6442d83-4cfe-4699-85b1-4d58cecc2f31",
+                "resourcePath": "scripts\\destroy_doors\\destroy_doors.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -519,11 +559,27 @@
             }
         },
         {
+            "Key": "bfdb19db-0c89-4eda-a500-d25cc70af56b",
+            "Value": {
+                "id": "954279b4-1e33-4408-addd-0735a052343f",
+                "resourcePath": "objects\\explode_obj\\explode_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c29c0757-8441-4184-bf94-7b110a6c33a4",
             "Value": {
                 "id": "d272084a-607c-4704-b03c-a45d216e3392",
                 "resourcePath": "rooms\\level6\\level6.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c2ab0519-4164-47f8-be9b-dcc04c774a8e",
+            "Value": {
+                "id": "46a151e8-3921-4a12-85ae-e9dd690538da",
+                "resourcePath": "objects\\noob_sword_obj\\noob_sword_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -623,6 +679,14 @@
             }
         },
         {
+            "Key": "e26bd0d5-4058-4f3f-be36-7dfd6052010c",
+            "Value": {
+                "id": "01785981-be59-45c5-b9f3-0566a2d16426",
+                "resourcePath": "sprites\\explode_spr\\explode_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e4d04525-e66b-42ad-aae3-410727d832a4",
             "Value": {
                 "id": "27c08092-7bea-4c60-b920-d185a494effd",
@@ -713,7 +777,8 @@
         "1db4b235-2385-4aef-809d-db0ec809545e",
         "57ff5b30-1d62-4599-a2fc-cc627e1fa4af",
         "6873ab14-e2c8-4f02-a0bf-74d4925d9b35",
-        "b5aae021-6e2c-4c5c-a892-bd7f7d9f9674"
+        "b5aae021-6e2c-4c5c-a892-bd7f7d9f9674",
+        "a6967631-c656-4d7e-a50c-8468f793fd95"
     ],
     "tutorial": ""
 }

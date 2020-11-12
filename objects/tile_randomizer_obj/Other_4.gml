@@ -71,9 +71,9 @@ if( !ds_map_exists( player.visited_rooms,room_str ) )
 }
 else
 {
-	// Destroy doors.
-	var temp_enemy = instance_create_layer( 0,0,"instances",enemy_base )
-	instance_destroy( temp_enemy )
+	// var temp_enemy = instance_create_layer( 0,0,"instances",enemy_base )
+	// instance_destroy( temp_enemy )
+	destroy_doors()
 }
 
 randomize()
