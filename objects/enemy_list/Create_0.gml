@@ -5,7 +5,7 @@ starter[2] = mage_obj
 starter[3] = knight_obj
 
 // medium difficulty
-mid[0] = noone
+mid[0] = slime_obj
 
 // bosses
 hard[0] = noone
