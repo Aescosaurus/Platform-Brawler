@@ -1,14 +1,19 @@
 // starter enemies
-starter[0] = ghost_obj
-starter[1] = spider_obj
-starter[2] = mage_obj
-starter[3] = knight_obj
+var s = 0
+starter[s++] = ghost_obj
+starter[s++] = spider_obj
+starter[s++] = mage_obj
+starter[s++] = knight_obj
 
 // medium difficulty
-mid[0] = slime_obj
+var m = 0
+mid[m++] = slime_obj
+mid[m++] = wolf_obj
 
 // bosses
-hard[0] = noone
+var h = 0
+hard[h++] = noone
 
 // final bosses
-boss[0] = noone
+var b = 0
+boss[b++] = noone

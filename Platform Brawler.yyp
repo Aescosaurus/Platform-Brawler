@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "056c4613-2f99-4841-85be-edfe432dd24b",
+            "Value": {
+                "id": "4449a08c-f146-4e68-aa1f-e69b5e9f298c",
+                "resourcePath": "objects\\wolf_obj\\wolf_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0655c610-61cd-49ac-9fc3-20bcd5ffa852",
             "Value": {
                 "id": "1938898f-1d3f-42d5-815d-b55687e21cd3",
@@ -683,6 +691,14 @@
             "Value": {
                 "id": "c28b9267-36c9-48ab-b2d1-05e314f3fcc2",
                 "resourcePath": "sprites\\boss_door_spr\\boss_door_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de83eaa9-e363-4ebb-9ccd-9c97540fbb0d",
+            "Value": {
+                "id": "70c61b3e-9677-4428-a265-239232a7bf67",
+                "resourcePath": "sprites\\wolf_spr\\wolf_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

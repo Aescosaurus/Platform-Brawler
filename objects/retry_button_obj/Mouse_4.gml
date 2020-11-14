@@ -18,6 +18,9 @@ for( var i = 0; i < array_length_1d( player.items ); ++i )
 player.item_count = 0
 instance_destroy( item_base )
 
+player_obj.x = 128
+player_obj.y = 104
+
 room_goto( menu_room )
 
 game_start()
