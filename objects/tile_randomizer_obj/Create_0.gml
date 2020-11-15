@@ -1,4 +1,4 @@
-door_chance = 0.7
+door_chance = 0.8
 
 randomize()
 seed = random_get_seed()
