@@ -1,5 +1,6 @@
 tilemap = layer_tilemap_get_id( "tiles" )
-tilemap_tileset( tilemap,tile_arr[get_difficulty()] )
+// tilemap_tileset( tilemap,tile_arr[get_difficulty()] )
+tilemap_tileset( tilemap,tile_arr[cur_area] )
 width = tilemap_get_width( tilemap )
 height = tilemap_get_height( tilemap )
 tile_width = tilemap_get_tile_width( tilemap )
@@ -7,6 +8,9 @@ tile_height = tilemap_get_tile_height( tilemap )
 
 // Generate doors.
 var player = instance_find( player_obj,0 )
+
+// print( string( player.room_x ) + " " + string( player.room_y ) )
+
 for( var iy = 0; iy < height; ++iy )
 {
 	for( var ix = 0; ix < width; ++ix )
@@ -14,32 +18,55 @@ for( var iy = 0; iy < height; ++iy )
 		var tile = tilemap_get( tilemap,ix,iy )
 		if( tile == 4 )
 		{
-			var rx = player.room_x * 2
-			var ry = player.room_y * 2
+			var rx = player.room_x // * 2
+			var ry = player.room_y // * 2
 			
 			var door = instance_create_layer( ix * tile_width,iy * tile_height,"instances",door_obj )
-			door.image_index = 1
+			// door.image_index = 1
 			
-			if( iy == 0 && noise( rx,ry - 1,seed ) < door_chance )
+			var door_anim_check_x = 0
+			var door_anim_check_y = 0
+			
+			if( iy == 0 /* && noise( rx,ry - 1,seed ) < door_chance */ )
 			{
 				door.dir = 0
+				door_anim_check_y = -1
 			}
-			else if( iy == height - 1 && noise( rx,ry + 1,seed ) < door_chance )
+			else if( iy == height - 1 /* && noise( rx,ry + 1,seed ) < door_chance */ )
 			{
 				door.dir = 1
+				door_anim_check_y = 1
 			}
-			else if( ix == 0 && noise( rx - 1,ry,seed ) < door_chance )
+			else if( ix == 0 /* && noise( rx - 1,ry,seed ) < door_chance */ )
 			{
 				door.dir = 2
+				door_anim_check_x = -1
 			}
-			else if( ix == width - 1 && noise( rx + 1,ry,seed ) < door_chance )
+			else if( ix == width - 1 /* && noise( rx + 1,ry,seed ) < door_chance */ )
 			{
 				door.dir = 3
+				door_anim_check_x = 1
 			}
 			else
 			{
+				// This shouldnt happen but handles invalidly placed doors.
 				instance_destroy( door )
 				tilemap_set( tilemap,choose( 1,2,3, 5,6,7, 9,10,11 ),ix,iy )
+				continue
+			}
+			
+			// Set door spr based on whats on the other side.
+			var r_index = xy2str( rx + door_anim_check_x,ry + door_anim_check_y )
+			if( ds_map_exists( rogue_map,r_index ) )
+			{
+				// print( string( ds_map_exists( rogue_map,r_index ) ) + "," + string( r_index ) + "," + string( rogue_map[? r_index] ) )
+				door.image_index = rogue_map[? r_index] + 1
+			}
+			
+			if( door.image_index < 1 )
+			{
+				// Make sure player can't go through closed doors.
+				tilemap_set( tilemap,1,ix,iy )
 			}
 		}
 		else if( tile == 8 )
@@ -50,15 +77,17 @@ for( var iy = 0; iy < height; ++iy )
 }
 
 // Ensure there is at least 1 door.
-if( instance_number( door_obj ) < 1 )
-{
-	++player.room_x
-	gen_rand_room()
-	return
-}
+// if( instance_number( door_obj ) < 1 )
+// {
+// 	++player.room_x
+// 	gen_rand_room()
+// 	return
+// }
 
-var room_str = string( player.room_x ) + " " + string( player.room_y )
-if( !ds_map_exists( player.visited_rooms,room_str ) )
+var room_str = xy2str( player.room_x,player.room_y )
+var cur_room_type = rogue_map[? room_str]
+if( !ds_map_exists( player.visited_rooms,room_str ) &&
+	( cur_room_type == 0 || cur_room_type == 3 ) )
 {
 	var enemy_count = 5
 	var enemies = gen_enemies( enemy_count )
@@ -74,6 +103,15 @@ else
 	// var temp_enemy = instance_create_layer( 0,0,"instances",enemy_base )
 	// instance_destroy( temp_enemy )
 	destroy_doors()
+	
+	if( cur_room_type == 1 )
+	{
+		// spawn exit at one of the enemy spawn locs
+	}
+	else if( cur_room_type == 2 )
+	{
+		// spawn shop stuff
+	}
 }
 
 randomize()

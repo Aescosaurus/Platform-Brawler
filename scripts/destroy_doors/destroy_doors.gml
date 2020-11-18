@@ -15,4 +15,11 @@ for( var iy = 0; iy < height; ++iy )
 }
 
 // todo trigger cool anim instead of destroy
-door_obj.image_index = 2
+// door_obj.image_index = door_obj.image_number - 1
+
+for( var i = 0; i < instance_number( door_obj ); ++i )
+{
+	var cur_door = instance_find( door_obj,i )
+	
+	if( cur_door.image_index > 0 ) cur_door.image_index = cur_door.image_number - 1
+}

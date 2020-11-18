@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "6fe792f0-70a6-4c0c-8367-df03344feb5a",
+            "Value": {
+                "id": "ce4945aa-7686-4c04-aa8a-0ce0ac046295",
+                "resourcePath": "scripts\\gen_rogue_map\\gen_rogue_map.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "71df11a9-2c64-41e4-b153-5fa4e2b85856",
             "Value": {
                 "id": "4e2e6bc4-1491-4dd6-8295-a04f8b253277",
@@ -500,6 +508,14 @@
                 "id": "8bf1f6b5-e0ad-42fa-8ea5-6af407eee4df",
                 "resourcePath": "objects\\flame_spell_obj\\flame_spell_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a59c7d0d-e364-4559-8fb8-3cfcea04de3d",
+            "Value": {
+                "id": "ee29fdbe-3fdd-4756-8154-f9601220e076",
+                "resourcePath": "scripts\\xy2str\\xy2str.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -810,7 +826,9 @@
         "57ff5b30-1d62-4599-a2fc-cc627e1fa4af",
         "6873ab14-e2c8-4f02-a0bf-74d4925d9b35",
         "b5aae021-6e2c-4c5c-a892-bd7f7d9f9674",
-        "a6967631-c656-4d7e-a50c-8468f793fd95"
+        "a6967631-c656-4d7e-a50c-8468f793fd95",
+        "a59c7d0d-e364-4559-8fb8-3cfcea04de3d",
+        "6fe792f0-70a6-4c0c-8367-df03344feb5a"
     ],
     "tutorial": ""
 }
