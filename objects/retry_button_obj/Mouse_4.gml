@@ -11,15 +11,14 @@ var player = instance_find( player_obj,0 )
 player.room_x = 0
 player.room_y = 0
 player.visited_rooms = ds_map_create()
+player.x = 128
+player.y = 104
 for( var i = 0; i < array_length_1d( player.items ); ++i )
 {
 	player.items[i] = noone
 }
 player.item_count = 0
 instance_destroy( item_base )
-
-player_obj.x = 128
-player_obj.y = 104
 
 room_goto( menu_room )
 

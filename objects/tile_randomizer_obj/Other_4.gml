@@ -1,6 +1,5 @@
 tilemap = layer_tilemap_get_id( "tiles" )
-// tilemap_tileset( tilemap,tile_arr[get_difficulty()] )
-tilemap_tileset( tilemap,tile_arr[cur_area] )
+tilemap_tileset( tilemap,tile_arr[get_difficulty()] )
 width = tilemap_get_width( tilemap )
 height = tilemap_get_height( tilemap )
 tile_width = tilemap_get_tile_width( tilemap )
@@ -91,10 +90,9 @@ if( !ds_map_exists( player.visited_rooms,room_str ) &&
 {
 	var enemy_count = 5
 	var enemies = gen_enemies( enemy_count )
-	var spawn_count = instance_number( enemy_spawn_obj )
 	for( var i = 0; i < array_length_1d( enemies ); ++i )
 	{
-		var cur_spawn = instance_find( enemy_spawn_obj,random_range( 0,spawn_count - 1 ) )
+		var cur_spawn = get_rand_spawn_pos()
 		instance_create_layer( cur_spawn.x,cur_spawn.y,"instances",enemies[i] )
 	}
 }
@@ -106,7 +104,8 @@ else
 	
 	if( cur_room_type == 1 )
 	{
-		// spawn exit at one of the enemy spawn locs
+		var cur_spawn = get_rand_spawn_pos()
+		instance_create_layer( cur_spawn.x,cur_spawn.y + 4,"instances",exit_obj )
 	}
 	else if( cur_room_type == 2 )
 	{

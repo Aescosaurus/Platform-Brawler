@@ -1,0 +1,1 @@
+return( instance_find( enemy_spawn_obj,random_range( 0,instance_number( enemy_spawn_obj ) - 1 ) ) )
