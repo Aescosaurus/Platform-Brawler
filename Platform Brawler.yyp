@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "48670141-713e-4daf-aca5-b39338cd2dfc",
+            "Value": {
+                "id": "8f13e8b2-73aa-43b5-9ff2-7b3628b2ae7f",
+                "resourcePath": "objects\\coin_particle_obj\\coin_particle_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bd0789f-292d-4d85-8452-249d23cb63ed",
             "Value": {
                 "id": "3f654eff-75f3-4824-b6ba-0fa8e4bd1c6a",
@@ -308,6 +316,14 @@
                 "id": "4b850c71-4b96-4b98-a4ac-075084c7b548",
                 "resourcePath": "objects\\enemy_base\\enemy_base.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "53e2a40d-8925-4fc5-a451-36d076f09c39",
+            "Value": {
+                "id": "7d5bd934-7ef5-4239-bdf0-628506d76670",
+                "resourcePath": "sprites\\coin_particle_spr\\coin_particle_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -356,6 +372,14 @@
                 "id": "26be6024-f9ef-4087-afb9-ffb5e867c6a4",
                 "resourcePath": "views\\68b4cbdc-1bc0-4040-9431-cd6e5b4f53d0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e395810-6106-4702-adf0-1b5722821119",
+            "Value": {
+                "id": "09bc6c66-4518-424c-8c50-940673c3b186",
+                "resourcePath": "objects\\coin_obj\\coin_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -795,6 +819,14 @@
             "Value": {
                 "id": "c4c06e21-c992-4034-a010-3ac037d5ebd9",
                 "resourcePath": "sprites\\mage_spr\\mage_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef66ed5d-67ab-480d-a1bf-7394f0394cad",
+            "Value": {
+                "id": "2270a940-7405-41a0-b43e-3595063855e9",
+                "resourcePath": "sprites\\coin_spr\\coin_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

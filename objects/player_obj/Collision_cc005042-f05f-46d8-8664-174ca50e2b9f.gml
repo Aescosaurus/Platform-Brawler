@@ -1,4 +1,4 @@
-if( !ouch_frames )
+if( !ouch_frames && !invul_frames )
 {
 	// --hp and knockback and invul time
 	--hp
@@ -12,5 +12,6 @@ if( !ouch_frames )
 	grav = 0.0
 	
 	ouch_frames = true
+	invul_frames = true
 	alarm_set( 1,ouch_dur )
 }

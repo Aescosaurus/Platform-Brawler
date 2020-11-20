@@ -24,6 +24,7 @@ ouch_xvel = 0.0
 ouch_yvel = 0.0
 knockback_x = 70.0
 knockback_y = 50.0
+invul_frames = false
 
 visited_rooms = ds_map_create()
 
@@ -37,3 +38,5 @@ items[0] = noone
 item_count = 0
 
 look_dir = 1
+
+coin_count = 0

@@ -4,6 +4,13 @@ for( var i = 0; i < max_hp; ++i )
 		0,i * ( sprite_get_width( heart_spr ) + 2 ) + 2,2 )
 }
 
+for( var i = 0; i < coin_count; ++i )
+{
+	draw_sprite( coin_spr,0,
+		max_hp * ( sprite_get_width( heart_spr ) + 2 ) + 3 +
+		( sprite_get_width( coin_spr ) + 1 ) * i,4 )
+}
+
 if( hp < 1 )
 {
 	global.time_scale = 0.0
