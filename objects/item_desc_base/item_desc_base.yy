@@ -1,53 +1,43 @@
 {
-    "id": "bc1ec005-71b3-49e8-942a-1e96ce9a5b19",
+    "id": "ace93b92-bd67-4642-a1b2-c8d8034c14ea",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "shop_item_obj",
+    "name": "item_desc_base",
     "eventList": [
         {
-            "id": "1a6cca7a-340b-4603-81d9-c275529d6ac3",
+            "id": "f88b9cba-453d-4d60-a36c-45fe0d48fbf4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "bc1ec005-71b3-49e8-942a-1e96ce9a5b19"
+            "m_owner": "ace93b92-bd67-4642-a1b2-c8d8034c14ea"
         },
         {
-            "id": "4c98aa2c-3586-4a5c-ba89-e006dc4061b9",
+            "id": "158e8765-eb61-49d0-a35e-513383f040ee",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 1,
             "eventtype": 3,
-            "m_owner": "bc1ec005-71b3-49e8-942a-1e96ce9a5b19"
+            "m_owner": "ace93b92-bd67-4642-a1b2-c8d8034c14ea"
         },
         {
-            "id": "b34b7886-67ef-4779-ac1c-894a44ab5151",
+            "id": "be3602a5-72f7-49b2-8867-bfeae6bc4f08",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 73,
             "eventtype": 8,
-            "m_owner": "bc1ec005-71b3-49e8-942a-1e96ce9a5b19"
-        },
-        {
-            "id": "33527074-b1c8-4099-8d30-5c02709da2bb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "bc1ec005-71b3-49e8-942a-1e96ce9a5b19"
+            "m_owner": "ace93b92-bd67-4642-a1b2-c8d8034c14ea"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "ace93b92-bd67-4642-a1b2-c8d8034c14ea",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

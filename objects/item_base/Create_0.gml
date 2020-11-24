@@ -1,3 +1,6 @@
+event_inherited()
+desc = item_list.descs[? object_index]
+
 var player = instance_find( player_obj,0 )
 
 target_x = 1 + player.item_count * 8 + sprite_width / 2

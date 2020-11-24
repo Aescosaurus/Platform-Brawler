@@ -1,4 +1,4 @@
-if( target )
+if( instance_exists( target ) )
 {
 	var dt = get_dt()
 	
