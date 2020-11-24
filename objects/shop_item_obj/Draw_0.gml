@@ -1,0 +1,1 @@
+draw_sprite( object_get_sprite( item ),0,x,y )

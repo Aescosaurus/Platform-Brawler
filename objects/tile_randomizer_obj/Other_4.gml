@@ -110,6 +110,12 @@ else
 	else if( cur_room_type == 2 )
 	{
 		// spawn shop stuff
+		
+		for( var i = 0; i < instance_number( enemy_spawn_obj ); ++i )
+		{
+			var spot = instance_find( enemy_spawn_obj,i )
+			instance_create_layer( spot.x,spot.y + 2,"instances",shop_item_obj )
+		}
 	}
 }
 
