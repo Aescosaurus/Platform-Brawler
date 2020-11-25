@@ -88,13 +88,8 @@ var cur_room_type = rogue_map[? room_str]
 if( !ds_map_exists( player.visited_rooms,room_str ) &&
 	( cur_room_type == 0 || cur_room_type == 3 ) )
 {
-	var enemy_count = 5
-	var enemies = gen_enemies( enemy_count )
-	for( var i = 0; i < array_length_1d( enemies ); ++i )
-	{
-		var cur_spawn = get_rand_spawn_pos()
-		instance_create_layer( cur_spawn.x,cur_spawn.y,"instances",enemies[i] )
-	}
+	if( cur_room_type == 0 ) spawn_enemies( wave_size,2 )
+	else spawn_enemies( wave_size * 2,3 )
 }
 else
 {
@@ -104,6 +99,8 @@ else
 	
 	if( cur_room_type == 1 )
 	{
+		// exit room
+		
 		var cur_spawn = get_rand_spawn_pos()
 		instance_create_layer( cur_spawn.x,cur_spawn.y + 4,"instances",exit_obj )
 	}
@@ -117,6 +114,12 @@ else
 			instance_create_layer( spot.x,spot.y + 2,"instances",shop_item_obj )
 		}
 	}
+	// else if( cur_room_type == 3 )
+	// {
+	// 	// challenge room
+	// 	
+	// 	spawn_enemies( wave_size * 2,3 )
+	// }
 }
 
 randomize()

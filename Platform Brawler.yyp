@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "c8723803-04d8-47fb-aa39-60a33216c8f6",
+            "Value": {
+                "id": "f071d9a7-57cc-4d0d-a605-b6fb104c84bc",
+                "resourcePath": "scripts\\spawn_enemies\\spawn_enemies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c93c9b73-80b1-4bfe-81e0-0f4aed3426b1",
             "Value": {
                 "id": "92dbe826-ed84-4d7d-bc13-2163c8a960fc",
@@ -911,6 +919,7 @@
         "c695ef59-176b-4ada-a12d-1e45517628b4",
         "4bd0789f-292d-4d85-8452-249d23cb63ed",
         "1db4b235-2385-4aef-809d-db0ec809545e",
+        "c8723803-04d8-47fb-aa39-60a33216c8f6",
         "57ff5b30-1d62-4599-a2fc-cc627e1fa4af",
         "6873ab14-e2c8-4f02-a0bf-74d4925d9b35",
         "b5aae021-6e2c-4c5c-a892-bd7f7d9f9674",

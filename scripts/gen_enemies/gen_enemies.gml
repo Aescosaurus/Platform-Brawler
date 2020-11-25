@@ -1,12 +1,13 @@
 var enemy_count = argument0
+var pick_variety = argument1
 
 var list = instance_find( enemy_list,0 )
 var enemies = array_create( enemy_count )
 var level = get_difficulty()
 
-var picks = array_create( 2 )
+var picks = array_create( pick_variety )
 
-for( var i = 0; i < 2; ++i )
+for( var i = 0; i < pick_variety; ++i )
 {
 	if( level == 0 )
 	{

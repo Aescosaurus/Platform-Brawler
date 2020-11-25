@@ -3,6 +3,8 @@
 randomize()
 seed = random_get_seed()
 
+wave_size = 5
+
 room_count = 9
 exit_count = 1
 shop_count = 1
