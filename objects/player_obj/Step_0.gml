@@ -96,8 +96,8 @@ else if( y_dir > 0 )
 }
 
 
-var x_shot_vel = keyboard_check( vk_right ) - keyboard_check( vk_left )
-var y_shot_vel = keyboard_check( vk_down ) - keyboard_check( vk_up )
+x_shot_vel = keyboard_check( vk_right ) - keyboard_check( vk_left )
+y_shot_vel = keyboard_check( vk_down ) - keyboard_check( vk_up )
 
 if( x_shot_vel != 0.0 ) look_dir = sign( x_shot_vel )
 

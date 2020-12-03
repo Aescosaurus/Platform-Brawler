@@ -10,6 +10,8 @@ jumping = false
 jump_pow = 4 * 25
 can_jump = false
 wall_dir = 0
+x_shot_vel = 0
+y_shot_vel = 0
 
 refire = 0.12 * 60.0
 can_fire = false

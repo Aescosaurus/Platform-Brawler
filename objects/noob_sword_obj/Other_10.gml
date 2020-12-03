@@ -1,4 +1,4 @@
-if( ++cur_shot > shot_timer )
+if( ++cur_shot >= shot_timer )
 {
 	cur_shot = 0
 	

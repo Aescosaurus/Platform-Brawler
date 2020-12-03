@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0da41c0c-548c-4783-9f1c-7e06f3d46941",
+            "Value": {
+                "id": "2cd91e90-c3a2-475c-9ba8-cfb090b26c6e",
+                "resourcePath": "objects\\fire_bomb_obj\\fire_bomb_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1508dccc-073b-42af-9a9c-a5878c6efe2e",
             "Value": {
                 "id": "f975c052-e74d-41e7-9db4-43a1ae25e3f3",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "5092895e-a7b5-4f9a-b476-d60af9cdc22d",
+            "Value": {
+                "id": "127ee164-afa1-4134-9d43-b30fca84145b",
+                "resourcePath": "objects\\broken_wand_obj\\broken_wand_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "53e2a40d-8925-4fc5-a451-36d076f09c39",
             "Value": {
                 "id": "7d5bd934-7ef5-4239-bdf0-628506d76670",
@@ -535,6 +551,14 @@
             }
         },
         {
+            "Key": "9140e49f-fd72-46c5-830c-fed6e33c8820",
+            "Value": {
+                "id": "eb1e17a6-76d8-4cc2-8413-ab820e8b6c70",
+                "resourcePath": "sprites\\blast_wand_spr\\blast_wand_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "91ae8878-8531-4ebb-863d-334a88323fbb",
             "Value": {
                 "id": "bed4be5f-2b89-4517-95f8-105c3f44697d",
@@ -700,6 +724,14 @@
                 "id": "c588d513-2869-4a70-b822-168a52db193c",
                 "resourcePath": "views\\ba175398-0d2e-4f09-9a49-abe7a3059d83.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bac7b5d2-555c-4445-87e6-27e08bb06564",
+            "Value": {
+                "id": "1a32e4ff-60a0-4bd2-affb-f3a4153d7641",
+                "resourcePath": "sprites\\broken_wand_spr\\broken_wand_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -932,6 +964,14 @@
                 "id": "171c4659-3d2f-4038-9e8f-34c4db7d9b98",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6777409-8122-4e74-8cb9-0bc096db060a",
+            "Value": {
+                "id": "7d3d1ac8-55d4-491a-af69-c97fce7609eb",
+                "resourcePath": "objects\\blast_wand_obj\\blast_wand_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
