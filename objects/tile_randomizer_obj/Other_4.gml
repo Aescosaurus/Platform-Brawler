@@ -1,5 +1,7 @@
 tilemap = layer_tilemap_get_id( "tiles" )
+
 tilemap_tileset( tilemap,tile_arr[get_difficulty()] )
+
 width = tilemap_get_width( tilemap )
 height = tilemap_get_height( tilemap )
 tile_width = tilemap_get_tile_width( tilemap )

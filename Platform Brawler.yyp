@@ -247,11 +247,27 @@
             }
         },
         {
+            "Key": "390fded7-b2c5-4762-9277-dfa10bec157e",
+            "Value": {
+                "id": "6e86d020-7174-4a56-9f9c-aa11ec16598e",
+                "resourcePath": "tilesets\\green_tiles\\green_tiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "3ead3c1f-5bc9-47cd-bd61-dc3631feb7c7",
             "Value": {
                 "id": "08109f71-7d0f-4315-a644-50453f586fc3",
                 "resourcePath": "objects\\exit_obj\\exit_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3eece7ff-e89a-4ee3-a7e4-a45ac775d4f4",
+            "Value": {
+                "id": "e7c9eb15-d855-47fe-b1f3-1ee70870c38c",
+                "resourcePath": "sprites\\gold_tiles_spr\\gold_tiles_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -332,6 +348,14 @@
                 "id": "37146d25-ad0c-44e9-b8b4-fcf26bfb9804",
                 "resourcePath": "scripts\\game_start\\game_start.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "581e1a99-be6a-4317-9310-4b4a114eefa7",
+            "Value": {
+                "id": "7205a13d-d6e9-43dc-bb91-03f4b59bf699",
+                "resourcePath": "objects\\witch_obj\\witch_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -495,6 +519,14 @@
             }
         },
         {
+            "Key": "8e38bb60-6530-41ef-aea8-e9891c958519",
+            "Value": {
+                "id": "1221227c-6282-4b44-a6b8-c6631a7f307f",
+                "resourcePath": "tilesets\\gold_tiles\\gold_tiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "8f43f274-babb-4385-acd9-26eece885649",
             "Value": {
                 "id": "73a380a6-91c1-462e-821f-f69a271bc3be",
@@ -556,6 +588,14 @@
                 "id": "8bf1f6b5-e0ad-42fa-8ea5-6af407eee4df",
                 "resourcePath": "objects\\flame_spell_obj\\flame_spell_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a3f65e2b-ce8c-475b-a656-d1d0d5116745",
+            "Value": {
+                "id": "af7cd845-d303-4525-81ca-3dfc75149076",
+                "resourcePath": "sprites\\green_tiles_spr\\green_tiles_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -636,6 +676,14 @@
                 "id": "35a644cc-f31d-4ac2-8e37-cb690c1ee049",
                 "resourcePath": "views\\aff307fe-1968-4486-990c-c3f6adee015b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b23cf22c-0e21-4385-b62a-ffd654c109cb",
+            "Value": {
+                "id": "c517e3fb-ac91-49e4-bd3d-5fb8ea98e76e",
+                "resourcePath": "sprites\\witch_spr\\witch_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -748,6 +796,14 @@
                 "id": "b844ef10-6abf-433e-8101-5a85974036f3",
                 "resourcePath": "views\\d118d792-153c-4ed2-a39f-85a2d62de0e9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2a09150-b222-4069-840e-84960bc03fd3",
+            "Value": {
+                "id": "bfe3f4de-3836-4fc3-b79c-0ec63a1ad9c2",
+                "resourcePath": "sprites\\pink_tiles_spr\\pink_tiles_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

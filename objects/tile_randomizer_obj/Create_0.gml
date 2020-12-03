@@ -14,5 +14,8 @@ gen_rogue_map( room_count,exit_count,shop_count,hard_count )
 
 cur_area = 0
 
-tile_arr[0] = red_tiles
-tile_arr[1] = blue_tiles
+var t = 0
+tile_arr[t++] = red_tiles
+tile_arr[t++] = blue_tiles
+tile_arr[t++] = green_tiles
+tile_arr[t++] = gold_tiles

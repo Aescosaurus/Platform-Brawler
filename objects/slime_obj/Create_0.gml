@@ -5,7 +5,7 @@ dir = choose( -1,1 )
 image_xscale = dir
 move_speed = random_range( 14,25 )
 
-invis_timer = random_range( 2.5,3.5 ) * 60.0
+invis_timer = random_range( 1.7,3.0 ) * 60.0
 invis_duration = random_range( 2.0,2.8 ) * 60.0
 invis = false
 

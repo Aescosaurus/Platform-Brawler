@@ -7,4 +7,4 @@ desc = item_list.descs[? item]
 
 buy_dist = 12
 
-cost = irandom_range( 3,5 )
+cost = irandom_range( 7,9 )
