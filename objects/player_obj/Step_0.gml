@@ -51,7 +51,8 @@ if( x_dir != 0 )
 }
 
 // Check if place where we're moving is free and move if so.
-if( tilemap_get_at_pixel( tilemap,x + x_move + h_width * x_dir,y ) <= 0 )
+// if( tilemap_get_at_pixel( tilemap,x + x_move + h_width * x_dir,y ) <= 0 )
+if( player_check_tile_corners( tilemap,x + x_move/* + h_width * x_dir*/,y ) )
 {
 	x += x_move
 	wall_dir = 0
@@ -63,7 +64,7 @@ if( tilemap_get_at_pixel( tilemap,x + x_move + h_width * x_dir,y ) <= 0 )
 // }
 else
 {
-	while( tilemap_get_at_pixel( tilemap,x + x_dir + h_width * x_dir,y ) <= 0 )
+	while( player_check_tile_corners( tilemap,x + x_dir/* + h_width * x_dir*/,y ) )
 	{
 		x += x_dir
 		wall_dir = 0
@@ -77,13 +78,13 @@ else
 	image_index = 7
 }
 
-if( tilemap_get_at_pixel( tilemap,x,y + y_move + h_height * y_dir ) <= 0 )
+if( player_check_tile_corners( tilemap,x,y + y_move/* + h_height * y_dir*/ ) )
 {
 	y += y_move
 }
 else if( y_dir > 0 )
 {
-	while( tilemap_get_at_pixel( tilemap,x,y + y_dir + h_height * y_dir ) <= 0 )
+	while( player_check_tile_corners( tilemap,x,y + y_dir/* + h_height * y_dir*/ ) )
 	{
 		y += y_dir
 	}
