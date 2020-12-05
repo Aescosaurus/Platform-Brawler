@@ -10,6 +10,7 @@ var m = 0
 mid[m++] = slime_obj
 mid[m++] = wolf_obj
 mid[m++] = witch_obj
+mid[m++] = phantom_obj
 
 // bosses
 var h = 0

@@ -1,4 +1,4 @@
-if( !stalling )
+if( !teleporting )
 {
 	x_vel = dir * move_speed
 	
