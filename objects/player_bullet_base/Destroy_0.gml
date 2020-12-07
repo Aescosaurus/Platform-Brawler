@@ -17,7 +17,7 @@ if( instance_number( enemy_base ) < 1 )
 			
 			if( len < sqr( wall_dest_dist ) )
 			{
-				cur_door.image_index = 5
+				cur_door.image_index = cur_door.image_number - 1
 				
 				tilemap_set_at_pixel( tilemap,0,cur_door.x,cur_door.y )
 			}

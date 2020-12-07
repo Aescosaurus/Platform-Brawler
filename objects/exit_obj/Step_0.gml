@@ -5,7 +5,11 @@ if( can_click && keyboard_check( ord( "E" ) ) )
 {
 	// goto next area
 	
-	++tile_randomizer_obj.cur_area
+	with( tile_randomizer_obj )
+	{
+		++cur_area
+		gen_rogue_map( room_count,exit_count,shop_count,hard_count )
+	}
 	
 	var player = instance_find( player_obj,0 )
 	player.room_x = 0

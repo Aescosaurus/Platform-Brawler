@@ -116,6 +116,13 @@ else
 			instance_create_layer( spot.x,spot.y + 2,"instances",shop_item_obj )
 		}
 	}
+	else if( cur_room_type == 4 )
+	{
+		// tutorial/starting room
+		
+		instance_create_layer( room_width * 0.25,room_height / 2,"instances",tut1_obj )
+		instance_create_layer( room_width * 0.75,room_height / 2,"instances",tut2_obj )
+	}
 	// else if( cur_room_type == 3 )
 	// {
 	// 	// challenge room

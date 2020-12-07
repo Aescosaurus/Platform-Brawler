@@ -7,10 +7,11 @@ var old_seed = random_get_seed()
 randomize()
 
 // room types
-// 1 = enemy
-// 2 = exit
-// 3 = shop
-// 4 = challenge
+// 0 = enemy
+// 1 = exit
+// 2 = shop
+// 3 = challenge
+// 4 = empty, instructions
 
 var map = instance_find( tile_randomizer_obj,0 ).rogue_map
 ds_map_clear( map )
@@ -25,6 +26,8 @@ for( var i = 0; i < n_hard; ++i ) ds_list_add( room_data,3 )
 for( var i = 0; i < n_rooms - n_exit - n_shop - n_hard; ++i ) ds_list_add( room_data,0 )
 
 ds_list_shuffle( room_data )
+
+ds_map_add( map,xy2str( 0,0 ),4 ) // Area start is always empty/tutorial room.
 
 var cur_x = 0
 var cur_y = 0
