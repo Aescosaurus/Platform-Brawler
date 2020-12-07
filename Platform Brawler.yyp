@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2e1f1e24-a4d2-4b72-95ff-70d81a5abd50",
+            "Value": {
+                "id": "6da56f57-b0e5-4e2d-aba2-aade4b2990af",
+                "resourcePath": "objects\\mushtree_obj\\mushtree_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2fb07ea0-427e-4cd8-ae6a-7355d77c7cbf",
             "Value": {
                 "id": "5a008276-019c-43b1-aa47-1079dbb54c1b",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "4f4e43cb-71c4-479f-9c2b-da97401b70e4",
+            "Value": {
+                "id": "50b5de82-2a8b-4208-83a0-6945feb562a2",
+                "resourcePath": "sprites\\toxicshroom_spr\\toxicshroom_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5092895e-a7b5-4f9a-b476-d60af9cdc22d",
             "Value": {
                 "id": "127ee164-afa1-4134-9d43-b30fca84145b",
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "62a639b3-ee6b-4ad5-bce0-99a7632410c3",
+            "Value": {
+                "id": "590a0a17-3d33-4373-986a-9c35d08d6a95",
+                "resourcePath": "sprites\\mushtree_spr\\mushtree_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6873ab14-e2c8-4f02-a0bf-74d4925d9b35",
             "Value": {
                 "id": "18624111-047e-45c4-86c9-dcb130156e17",
@@ -452,6 +476,14 @@
                 "id": "ce4945aa-7686-4c04-aa8a-0ce0ac046295",
                 "resourcePath": "scripts\\gen_rogue_map\\gen_rogue_map.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "712722db-08a3-4351-a96f-1d9dee4a2225",
+            "Value": {
+                "id": "e5335592-ab20-4650-be73-c898a8be43ee",
+                "resourcePath": "objects\\toxicshroom_obj\\toxicshroom_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

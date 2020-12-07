@@ -14,7 +14,8 @@ mid[m++] = phantom_obj
 
 // bosses
 var h = 0
-hard[h++] = noone
+hard[h++] = mushtree_obj
+hard[h++] = toxicshroom_obj
 
 // final bosses
 var b = 0
