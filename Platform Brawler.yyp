@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "020632d6-479b-4cc8-810b-5a82b5193f8d",
+            "Value": {
+                "id": "0ea0d503-d342-4137-80e9-8d2c98dc51f3",
+                "resourcePath": "sprites\\flame_spr\\flame_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "056c4613-2f99-4841-85be-edfe432dd24b",
             "Value": {
                 "id": "4449a08c-f146-4e68-aa1f-e69b5e9f298c",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "21c4712d-e254-4d52-8471-09eda5cc11be",
+            "Value": {
+                "id": "542d6a90-3190-445c-976a-e3202b4cfa0c",
+                "resourcePath": "objects\\flame_obj\\flame_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "221f1406-c941-4139-9bc4-a2d860cc5912",
             "Value": {
                 "id": "b8a7b2be-1c68-412f-b5e7-d401a4ba65e5",
@@ -188,6 +204,14 @@
                 "id": "5311f4fe-2d81-43cf-a461-21438b2a48ea",
                 "resourcePath": "views\\2cc09410-d41c-4b6e-895c-c3b4af61aec0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2dc4ecaf-9db2-46ab-973f-08b336f5e529",
+            "Value": {
+                "id": "fd832d25-ccfb-4c95-99ea-1c675418eb87",
+                "resourcePath": "objects\\snow_spell_obj\\snow_spell_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -491,6 +515,14 @@
             "Value": {
                 "id": "4e2e6bc4-1491-4dd6-8295-a04f8b253277",
                 "resourcePath": "objects\\enemy_spawn_obj\\enemy_spawn_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "72d71c6c-f288-4fef-a1be-e757a11af3f8",
+            "Value": {
+                "id": "95035e1f-c80f-4604-8cc8-c30ccc9fe7d3",
+                "resourcePath": "objects\\ninja_star_obj\\ninja_star_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -839,11 +871,27 @@
             }
         },
         {
+            "Key": "c5fb9f3a-81e0-42d8-9162-ea5a56538780",
+            "Value": {
+                "id": "864b9aea-f90b-489a-84dc-84b805d51ed8",
+                "resourcePath": "sprites\\snow_spell_spr\\snow_spell_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c695ef59-176b-4ada-a12d-1e45517628b4",
             "Value": {
                 "id": "4507d9ea-f14a-41be-90ba-349b62601e92",
                 "resourcePath": "scripts\\noise\\noise.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c7e5fb33-9ccb-45e4-b3fb-baf79a1a589b",
+            "Value": {
+                "id": "129ab4f6-abfd-4514-9541-053561c4afcd",
+                "resourcePath": "sprites\\ninja_star_spr\\ninja_star_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -903,6 +951,14 @@
             }
         },
         {
+            "Key": "d31e386d-9a55-4f5e-a1ec-5eee62c63368",
+            "Value": {
+                "id": "9000653b-c873-44f8-ae43-c28d0a3a29d6",
+                "resourcePath": "objects\\bullet_curtain_spell_obj\\bullet_curtain_spell_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d3441b0a-0cd5-445f-83a6-087e687c62e0",
             "Value": {
                 "id": "eb34dbf3-1185-4305-b1a3-6af75448fa1c",
@@ -939,6 +995,14 @@
             "Value": {
                 "id": "c28b9267-36c9-48ab-b2d1-05e314f3fcc2",
                 "resourcePath": "sprites\\boss_door_spr\\boss_door_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de471c13-f3f2-45b3-a83d-b00fe6f3e9ad",
+            "Value": {
+                "id": "177a9c76-fbc7-43b4-8cfb-88e5f0081b03",
+                "resourcePath": "sprites\\bullet_curtain_spell_spr\\bullet_curtain_spell_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

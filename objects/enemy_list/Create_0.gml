@@ -16,6 +16,7 @@ mid[m++] = phantom_obj
 var h = 0
 hard[h++] = mushtree_obj
 hard[h++] = toxicshroom_obj
+hard[h++] = flame_obj
 
 // final bosses
 var b = 0
