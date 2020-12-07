@@ -19,6 +19,7 @@ for( var i = 0; i < array_length_1d( player.items ); ++i )
 	player.items[i] = noone
 }
 player.item_count = 0
+player.coin_count = 0
 instance_destroy( item_base )
 
 room_goto( menu_room )

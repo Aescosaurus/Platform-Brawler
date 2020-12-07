@@ -17,6 +17,7 @@ if( can_click && keyboard_check( ord( "E" ) ) )
 	player.visited_rooms = ds_map_create()
 	player.x = 128
 	player.y = 104
+	player.hp = player.max_hp
 	
 	gen_rand_room()
 }
