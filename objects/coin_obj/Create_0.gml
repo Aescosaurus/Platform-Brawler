@@ -1,10 +1,9 @@
 var player = instance_find( player_obj,0 )
 
-target_x = player.max_hp * ( sprite_get_width( heart_spr ) + 2 ) + 2 + 2 +
-	player.coin_count * ( sprite_width + 1 )
+target_x = player.max_hp * ( sprite_get_width( heart_spr ) + 2 ) + 2 + 2
 target_y = 2 + sprite_height / 2
 
-cur_shot = 0
+// cur_shot = 0
 
 moving = true
 x_vel = 27.0 * 0.6

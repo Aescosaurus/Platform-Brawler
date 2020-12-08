@@ -12,22 +12,26 @@ if( !updated_rpos )
 	if( other.dir == 0 )
 	{
 		--room_y
-		y = room_height - tile_size * 2 - sprite_height
+		// y = room_height - tile_size * 2 - sprite_height
+		y = room_height - tile_size * 1.5
 	}
 	else if( other.dir == 1 )
 	{
 		++room_y
-		y = 0 + tile_size + sprite_height
+		// y = 0 + tile_size + sprite_height
+		y = 0 + tile_size * 1.5
 	}
 	else if( other.dir == 2 )
 	{
 		--room_x
-		x = room_width - tile_size * 2 - sprite_width
+		// x = room_width - tile_size * 2 - sprite_width
+		x = room_width - tile_size * 1.5
 	}
 	else if( other.dir == 3 )
 	{
 		++room_x
-		x = 0 + tile_size + sprite_width
+		// x = 0 + tile_size + sprite_width
+		x = 0 + tile_size * 1.5
 	}
 	
 	gen_rand_room()

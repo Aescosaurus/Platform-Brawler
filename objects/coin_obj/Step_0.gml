@@ -14,13 +14,14 @@ if( moving )
 		y_vel += y_diff / len * vel_update_spd * dt
 	}
 	
-	if( x < target_x || y < target_y )
+	if( /*x < target_x || */y < target_y )
 	{
 		// moving = false
 		// x = target_x
 		// y = target_y
 		var player = instance_find( player_obj,0 )
 		player.coin_count += 1
+		// moving = false
 		instance_destroy()
 	}
 }

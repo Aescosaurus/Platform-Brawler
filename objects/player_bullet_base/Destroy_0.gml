@@ -1,6 +1,5 @@
 instance_create_layer( x,y,"instances",explode_obj )
 
-
 if( instance_number( enemy_base ) < 1 )
 {
 	// var lowest = 9999
@@ -23,5 +22,5 @@ if( instance_number( enemy_base ) < 1 )
 			}
 		}
 	}
-	// print( lowest  )
+	// print( lowest )
 }
