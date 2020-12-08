@@ -1,5 +1,8 @@
 target = noone
 
+target_x = x
+target_y = y
+
 alarm_set( 0,random_range( 0.2,0.9 ) * 60.0 )
 
 var vel_dist = 10.0

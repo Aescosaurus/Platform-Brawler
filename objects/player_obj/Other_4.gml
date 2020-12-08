@@ -5,4 +5,7 @@ tilemap = layer_tilemap_get_id( "tiles" )
 // x = room_width / 2
 // y = room_height / 1.5
 
-instance_create_layer( x,y,"instances",shield_obj )
+if( item_count < 1 )
+{
+	instance_create_layer( x,y,"instances",snow_spell_obj )
+}
