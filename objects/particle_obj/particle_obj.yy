@@ -1,38 +1,38 @@
 {
-    "id": "48670141-713e-4daf-aca5-b39338cd2dfc",
+    "id": "d572dd70-3433-4ffb-b890-6ac8f87c4496",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "coin_particle_obj",
+    "name": "particle_obj",
     "eventList": [
         {
-            "id": "7e06b101-fb25-45ea-bece-f28c3c03def6",
+            "id": "9ee207c8-735f-4175-83e3-3111a0ea850e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "48670141-713e-4daf-aca5-b39338cd2dfc"
+            "m_owner": "d572dd70-3433-4ffb-b890-6ac8f87c4496"
         },
         {
-            "id": "84a976a6-f0e0-4980-8bca-f13726cfcd14",
+            "id": "b83a230d-475b-4079-919f-2201be68f1a6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "48670141-713e-4daf-aca5-b39338cd2dfc"
+            "m_owner": "d572dd70-3433-4ffb-b890-6ac8f87c4496"
         },
         {
-            "id": "230dc57f-6e76-4bb7-87a9-1ca809d6956b",
+            "id": "059d9c8f-d88c-4ea5-ba39-2567777eeb46",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "48670141-713e-4daf-aca5-b39338cd2dfc"
+            "m_owner": "d572dd70-3433-4ffb-b890-6ac8f87c4496"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "53e2a40d-8925-4fc5-a451-36d076f09c39",
+    "spriteId": "1cab7e4d-31e6-4a2e-9345-a02973ca67c3",
     "visible": true
 }

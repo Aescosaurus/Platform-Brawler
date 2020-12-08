@@ -191,10 +191,10 @@
             }
         },
         {
-            "Key": "28ec81cf-94b0-4752-8d59-62087e50839f",
+            "Key": "284414c2-28dc-4b3e-86ee-16ea478edbc8",
             "Value": {
-                "id": "24aaa2d5-85b9-4a36-b2ee-a0b42b779c88",
-                "resourcePath": "objects\\item_particle_obj\\item_particle_obj.yy",
+                "id": "fc98f623-1177-4bd0-b529-9ce1a1892c08",
+                "resourcePath": "objects\\spiky_armor_obj\\spiky_armor_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -359,11 +359,11 @@
             }
         },
         {
-            "Key": "48670141-713e-4daf-aca5-b39338cd2dfc",
+            "Key": "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0",
             "Value": {
-                "id": "8f13e8b2-73aa-43b5-9ff2-7b3628b2ae7f",
-                "resourcePath": "objects\\coin_particle_obj\\coin_particle_obj.yy",
-                "resourceType": "GMObject"
+                "id": "e39b01d6-f56d-4b29-8b7c-bb27df442a8f",
+                "resourcePath": "scripts\\trigger_item_event\\trigger_item_event.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "bdcfac5f-f0c4-4c05-8a66-49f27f59549d",
+            "Value": {
+                "id": "66c52255-ddda-4f22-b387-55410f146e5f",
+                "resourcePath": "sprites\\spiky_armor_spr\\spiky_armor_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfdb19db-0c89-4eda-a500-d25cc70af56b",
             "Value": {
                 "id": "954279b4-1e33-4408-addd-0735a052343f",
@@ -1003,6 +1011,14 @@
             "Value": {
                 "id": "531e6ccb-9767-492c-aa57-476e5349a797",
                 "resourcePath": "objects\\door_obj\\door_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d572dd70-3433-4ffb-b890-6ac8f87c4496",
+            "Value": {
+                "id": "4ee19167-6335-4cec-9b9f-91c76d8d7d1b",
+                "resourcePath": "objects\\particle_obj\\particle_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1192,7 +1208,8 @@
         "6fe792f0-70a6-4c0c-8367-df03344feb5a",
         "f2016f6f-1061-44a5-8d71-acea382898f2",
         "6a3aaca1-8795-42e6-8d53-ea461967e545",
-        "a125ad6c-ff79-459a-8205-3eb8cbd940ac"
+        "a125ad6c-ff79-459a-8205-3eb8cbd940ac",
+        "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0"
     ],
     "tutorial": ""
 }

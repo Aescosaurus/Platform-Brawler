@@ -21,7 +21,8 @@ for( var i = 0; i < part_spawn_count; ++i )
 	var rand_y = sin( rand_ang )
 	var part = instance_create_layer( x + rand_x * random_range( 0.0,spawn_range ),
 		y + rand_y * random_range( 0.0,spawn_range ),
-		"instances",coin_particle_obj )
+		"instances",particle_obj )
+	part.sprite_index = coin_particle_spr
 	part.target = self
 	part.x_vel = rand_x * random_range( 0.0,part_explode_spd )
 	part.y_vel = rand_y * random_range( 0.0,part_explode_spd )

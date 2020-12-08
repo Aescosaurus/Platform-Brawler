@@ -5,4 +5,4 @@ tilemap = layer_tilemap_get_id( "tiles" )
 // x = room_width / 2
 // y = room_height / 1.5
 
-// instance_create_layer( x,y,"instances",bullet_curtain_spell_obj )
+instance_create_layer( x,y,"instances",spiky_armor_obj )

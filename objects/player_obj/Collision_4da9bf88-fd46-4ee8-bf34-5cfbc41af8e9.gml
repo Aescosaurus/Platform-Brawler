@@ -15,6 +15,8 @@ if( !ouch_frames && !invul_frames )
 	ouch_frames = true
 	invul_frames = true
 	alarm_set( 1,ouch_dur )
+	
+	trigger_item_event( items,item_count,1,noone )
 }
 
 instance_destroy( other )
