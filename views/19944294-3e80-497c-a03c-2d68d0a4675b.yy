@@ -15,7 +15,9 @@
         "bdcfac5f-f0c4-4c05-8a66-49f27f59549d",
         "c98e4c0b-ebc3-4166-aa4f-e613a9043917",
         "9be331d9-a024-4edb-84ea-f912e1b63ea6",
-        "6b6ff173-5363-43f9-a504-7ee284294af2"
+        "6b6ff173-5363-43f9-a504-7ee284294af2",
+        "33bfe34a-47c4-45a7-8767-a88990d3ca99",
+        "a79f1f91-9487-4589-b37a-d230273d8ffc"
     ],
     "filterType": "GMSprite",
     "folderName": "itenz",
