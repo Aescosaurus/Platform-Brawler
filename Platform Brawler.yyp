@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0d5dc367-21e6-4feb-b04d-f8e48c02b33b",
+            "Value": {
+                "id": "c3e2a611-6426-4969-b07e-a11d6e765624",
+                "resourcePath": "scripts\\spawn_particles\\spawn_particles.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0d692e4d-a135-4874-b839-3d8b0b9354a3",
             "Value": {
                 "id": "c79678c1-ce85-44ea-a848-466024a39f37",
@@ -887,6 +895,14 @@
             }
         },
         {
+            "Key": "c22eeffb-67dd-44d6-80ea-1430a97b0545",
+            "Value": {
+                "id": "983e347e-bc16-4439-a87e-f878ec8d9e47",
+                "resourcePath": "sprites\\green_particle_spr\\green_particle_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c29c0757-8441-4184-bf94-7b110a6c33a4",
             "Value": {
                 "id": "d272084a-607c-4704-b03c-a45d216e3392",
@@ -1209,7 +1225,8 @@
         "f2016f6f-1061-44a5-8d71-acea382898f2",
         "6a3aaca1-8795-42e6-8d53-ea461967e545",
         "a125ad6c-ff79-459a-8205-3eb8cbd940ac",
-        "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0"
+        "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0",
+        "0d5dc367-21e6-4feb-b04d-f8e48c02b33b"
     ],
     "tutorial": ""
 }

@@ -18,17 +18,21 @@ vel_update_spd = 5 * 24
 var part_spawn_count = 50
 var spawn_range = 15
 var part_explode_spd = 50
-for( var i = 0; i < part_spawn_count; ++i )
-{
-	var rand_ang = random_range( 0.0,360.0 )
-	var rand_x = cos( rand_ang )
-	var rand_y = sin( rand_ang )
-	var part = instance_create_layer( x + rand_x * random_range( 0.0,spawn_range ),
-		y + rand_y * random_range( 0.0,spawn_range ),
-		"instances",particle_obj )
-	part.target = self
-	part.x_vel = rand_x * random_range( 0.0,part_explode_spd )
-	part.y_vel = rand_y * random_range( 0.0,part_explode_spd )
-}
+spawn_particles( particle_spr,spawn_range,
+	0.0,part_explode_spd,
+	0.0,360.0,
+	part_spawn_count,self )
+// for( var i = 0; i < part_spawn_count; ++i )
+// {
+// 	var rand_ang = random_range( 0.0,360.0 )
+// 	var rand_x = cos( rand_ang )
+// 	var rand_y = sin( rand_ang )
+// 	var part = instance_create_layer( x + rand_x * random_range( 0.0,spawn_range ),
+// 		y + rand_y * random_range( 0.0,spawn_range ),
+// 		"instances",particle_obj )
+// 	part.target = self
+// 	part.x_vel = rand_x * random_range( 0.0,part_explode_spd )
+// 	part.y_vel = rand_y * random_range( 0.0,part_explode_spd )
+// }
 
 evt_data = noone
