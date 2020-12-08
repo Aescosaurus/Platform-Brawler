@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "1b2bc348-3e7a-4ca2-88f9-00d4dca1c6d0",
+            "Value": {
+                "id": "f6e44013-8077-4173-80b6-11c9205a139b",
+                "resourcePath": "objects\\shield_obj\\shield_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1cab7e4d-31e6-4a2e-9345-a02973ca67c3",
             "Value": {
                 "id": "74bd7bb8-8678-4c6f-8a4b-ae7dbf7c194b",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "56382dd7-21e2-4e71-b557-de776398e415",
+            "Value": {
+                "id": "ffcca0b6-ef86-499e-b775-2b47c68076ad",
+                "resourcePath": "objects\\ice_armor_obj\\ice_armor_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57ff5b30-1d62-4599-a2fc-cc627e1fa4af",
             "Value": {
                 "id": "37146d25-ad0c-44e9-b8b4-fcf26bfb9804",
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "68ab7efa-8f28-43b1-a9c7-960120c7b037",
+            "Value": {
+                "id": "69ce89f0-a1f9-4092-9507-e80223df5e17",
+                "resourcePath": "objects\\flame_armor_obj\\flame_armor_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "68b4cbdc-1bc0-4040-9431-cd6e5b4f53d0",
             "Value": {
                 "id": "26be6024-f9ef-4087-afb9-ffb5e867c6a4",
@@ -500,6 +524,14 @@
                 "id": "8d85e119-3f23-4779-a791-36197bd922f6",
                 "resourcePath": "scripts\\try_draw_text\\try_draw_text.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6b6ff173-5363-43f9-a504-7ee284294af2",
+            "Value": {
+                "id": "1f434f9b-f632-4a11-98b6-d1892c8d339b",
+                "resourcePath": "sprites\\shield_spr\\shield_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -675,6 +707,14 @@
             "Value": {
                 "id": "cae21287-4bc7-4fb9-9a59-3de159774e15",
                 "resourcePath": "sprites\\slime_invis_spr\\slime_invis_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9be331d9-a024-4edb-84ea-f912e1b63ea6",
+            "Value": {
+                "id": "78169de2-d21e-47e6-8729-fc2bb87d23a7",
+                "resourcePath": "sprites\\ice_armor_spr\\ice_armor_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -964,6 +1004,14 @@
                 "id": "92dbe826-ed84-4d7d-bc13-2163c8a960fc",
                 "resourcePath": "objects\\magic_wand_obj\\magic_wand_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c98e4c0b-ebc3-4166-aa4f-e613a9043917",
+            "Value": {
+                "id": "fc464a2e-e26d-48cf-a2ce-2d60aad46aab",
+                "resourcePath": "sprites\\flame_armor_spr\\flame_armor_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
