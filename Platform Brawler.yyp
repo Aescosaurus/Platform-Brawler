@@ -1183,6 +1183,14 @@
             }
         },
         {
+            "Key": "ecea72c6-3ca4-4b55-8e36-22c44cffe752",
+            "Value": {
+                "id": "fc7e5ded-6ca6-45d8-bb55-81b2daad4fb9",
+                "resourcePath": "sprites\\shield_particle_spr\\shield_particle_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eede6286-6116-4bff-9b42-b29152885f7d",
             "Value": {
                 "id": "c4c06e21-c992-4034-a010-3ac037d5ebd9",

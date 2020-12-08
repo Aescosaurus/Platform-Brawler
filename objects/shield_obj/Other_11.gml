@@ -7,5 +7,8 @@ if( !used )
 		player.hp += 1
 		
 		used = true
+		
+		spawn_particles( shield_particle_spr,15,10,22,315,70,
+			40,player,player )
 	}
 }

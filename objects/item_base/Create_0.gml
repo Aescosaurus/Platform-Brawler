@@ -21,7 +21,7 @@ var part_explode_spd = 50
 spawn_particles( particle_spr,spawn_range,
 	0.0,part_explode_spd,
 	0.0,360.0,
-	part_spawn_count,self )
+	part_spawn_count,self,self )
 // for( var i = 0; i < part_spawn_count; ++i )
 // {
 // 	var rand_ang = random_range( 0.0,360.0 )

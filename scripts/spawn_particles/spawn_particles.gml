@@ -6,13 +6,14 @@ var dir = argument4
 var dir_variation = argument5
 var n_particles = argument6
 var target = argument7
+var spawn_obj = argument8
 
 for( var i = 0; i < n_particles; ++i )
 {
 	var rand_ang = random_range( 0.0,360.0 )
 	var part = instance_create_layer(
-		x + cos( rand_ang ) * random_range( 0.0,spawn_range ),
-		y + sin( rand_ang ) * random_range( 0.0,spawn_range ),
+		spawn_obj.x + cos( rand_ang ) * random_range( 0.0,spawn_range ),
+		spawn_obj.y + sin( rand_ang ) * random_range( 0.0,spawn_range ),
 		"overlay",
 		particle_obj )
 	
