@@ -3,8 +3,8 @@ var target_dir = point_direction( player.x,player.y,evt_data.x,evt_data.y )
 
 for( var i = -1; i < 2; ++i )
 {
-	var bullet = instance_create_layer( player.x,player.y,"instances",fireball_obj )
+	var bullet = instance_create_layer( player.x,player.y,"instances",arrow_obj )
 	
 	bullet.direction = target_dir + 15 * i
-	bullet.speed = 2.5
+	bullet.image_angle = bullet.direction - 45
 }
