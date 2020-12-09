@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0e9069b9-968f-4350-9764-a7c4167df9f4",
+            "Value": {
+                "id": "0017f5b5-7fec-40ba-ad77-51341c14ba2a",
+                "resourcePath": "objects\\blood_bow_obj\\blood_bow_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1508dccc-073b-42af-9a9c-a5878c6efe2e",
             "Value": {
                 "id": "f975c052-e74d-41e7-9db4-43a1ae25e3f3",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "4517aa53-fdc1-44a1-b770-5478595350b0",
+            "Value": {
+                "id": "ca5c1f34-3d9a-4a77-bb1b-3ec005a0df46",
+                "resourcePath": "objects\\moth_bow_obj\\moth_bow_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "45c82b59-a218-4e7d-a387-7a05f071170f",
             "Value": {
                 "id": "d81def97-56a4-437c-842e-0e31d784be64",
@@ -420,6 +436,30 @@
                 "id": "b99591cc-3eba-4ab5-9f30-64c3123aa6fe",
                 "resourcePath": "objects\\enemy_list\\enemy_list.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4c59dc76-8fbb-4d2b-89c3-f264882209e4",
+            "Value": {
+                "id": "da3a8740-da59-4767-a465-1f8043ea63b1",
+                "resourcePath": "objects\\steel_bow_obj\\steel_bow_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4c81ff3f-f95e-4c00-8b29-64edb313fa53",
+            "Value": {
+                "id": "07d12846-28e2-4b35-8fa4-c5d496adc3f9",
+                "resourcePath": "objects\\rand_bow_obj\\rand_bow_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4d89d29b-de30-4937-91e9-fce956f23040",
+            "Value": {
+                "id": "79e8bf60-4086-49b4-9e2d-d1b02d9457cc",
+                "resourcePath": "sprites\\rand_bow_spr\\rand_bow_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -855,6 +895,14 @@
             }
         },
         {
+            "Key": "a97f9f45-eb64-4f23-825a-f02ce9ec21c0",
+            "Value": {
+                "id": "8256e137-1f0b-4427-89f8-e5bb5585ff09",
+                "resourcePath": "sprites\\moth_bow_spr\\moth_bow_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9945aba-806b-4e30-b39f-d8891141aac4",
             "Value": {
                 "id": "78edf623-3642-47e8-bdf7-c2a2ee766f09",
@@ -975,6 +1023,14 @@
             }
         },
         {
+            "Key": "bfc136ce-b9f6-4431-b515-037b0fb4148c",
+            "Value": {
+                "id": "b6973d79-c991-4b90-aa14-1a43e7ea8c40",
+                "resourcePath": "sprites\\steel_bow_spr\\steel_bow_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfdb19db-0c89-4eda-a500-d25cc70af56b",
             "Value": {
                 "id": "954279b4-1e33-4408-addd-0735a052343f",
@@ -1052,6 +1108,14 @@
                 "id": "f071d9a7-57cc-4d0d-a605-b6fb104c84bc",
                 "resourcePath": "scripts\\spawn_enemies\\spawn_enemies.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8d994bf-f161-4782-ac71-da683d5445dc",
+            "Value": {
+                "id": "93902243-ef04-4c29-ad36-5189256df67e",
+                "resourcePath": "sprites\\blood_bow_spr\\blood_bow_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

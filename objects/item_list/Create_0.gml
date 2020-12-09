@@ -13,6 +13,10 @@ items[i++] = ice_armor_obj
 items[i++] = shield_obj
 items[i++] = reflect_bow_obj
 items[i++] = flame_bow_obj
+items[i++] = steel_bow_obj
+items[i++] = rand_bow_obj
+items[i++] = moth_bow_obj
+items[i++] = blood_bow_obj
 
 
 descs = ds_map_create()
@@ -28,5 +32,9 @@ descs[? spiky_armor_obj] = "Deal 5 damage to enemies that touch you"
 descs[? flame_armor_obj] = "Create a flame explosion upon taking damage"
 descs[? ice_armor_obj] = "Freeze all enemies for 2s upon taking damage"
 descs[? shield_obj] = "Blocks the next damage you take"
-descs[? reflect_bow_obj] = "Shoots a flame shotgun when you take damage"
-descs[? flame_bow_obj] = "Shoots a flame shotgun every 17 shots"
+descs[? reflect_bow_obj] = "Shoots an arrow shotgun when you take damage"
+descs[? flame_bow_obj] = "Shoots an arrow shotgun every 17 shots"
+descs[? steel_bow_obj] = "Every hit shoot an arrow"
+descs[? rand_bow_obj] = "Every 3 hits shoot an arrow at a random enemy"
+descs[? moth_bow_obj] = "Every 6 hits spawn an arrow explosion"
+descs[? blood_bow_obj] = "Shoot arrows at all enemies on taking damage"

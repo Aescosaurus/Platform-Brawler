@@ -1,0 +1,1 @@
+// when player shot damages enemy
