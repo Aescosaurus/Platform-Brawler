@@ -48,10 +48,15 @@ proj_dir_add = 0
 
 if( !global.player1 )
 {
-	max_hp = 2
+	max_hp = 3
 	hp = max_hp
 	player_projectile = player_arrow_obj
 	sprite_index = player2_spr
 	proj_dir_add = -45
 	refire = 0.55 * room_speed
+}
+
+if( global.chal1 )
+{
+	hp -= 1
 }

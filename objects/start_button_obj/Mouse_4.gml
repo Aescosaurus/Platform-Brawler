@@ -6,6 +6,7 @@ if( instance_number( player1_frame_obj ) > 0 )
 	global.chal3 = instance_find( chal3_obj,0 ).clicked
 	global.chal4 = instance_find( chal4_obj,0 ).clicked
 	global.chal5 = instance_find( chal5_obj,0 ).clicked
+	global.chal6 = instance_find( chal6_obj,0 ).clicked
 }
 
 room_goto_next()

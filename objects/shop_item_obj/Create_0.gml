@@ -8,3 +8,5 @@ desc = item_list.descs[? item]
 buy_dist = 12
 
 cost = irandom_range( 7,9 )
+
+if( global.chal4 ) cost *= 2

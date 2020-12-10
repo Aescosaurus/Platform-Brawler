@@ -5,5 +5,10 @@ var enemies = gen_enemies( enemy_count,pick_variety )
 for( var i = 0; i < array_length_1d( enemies ); ++i )
 {
 	var cur_spawn = get_rand_spawn_pos()
-	instance_create_layer( cur_spawn.x,cur_spawn.y,"instances",enemies[i] )
+	var enemy = instance_create_layer( cur_spawn.x,cur_spawn.y,"instances",enemies[i] )
+	
+	if( global.chal2 )
+	{
+		enemy.hp *= 2
+	}
 }

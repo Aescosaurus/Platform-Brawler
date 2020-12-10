@@ -2,6 +2,7 @@ if( !ouch_frames && !invul_frames )
 {
 	// --hp and knockback and invul time
 	--hp
+	if( global.chal5 ) hp = 0
 	
 	var x_diff = other.x - x
 	
