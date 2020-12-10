@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "1be7ad32-c089-4c82-aa0c-d03477749655",
+            "Value": {
+                "id": "cf65f9db-7b35-48f0-aac0-5990b153b9c1",
+                "resourcePath": "sprites\\lock_spr\\lock_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1cab7e4d-31e6-4a2e-9345-a02973ca67c3",
             "Value": {
                 "id": "74bd7bb8-8678-4c6f-8a4b-ae7dbf7c194b",
@@ -599,6 +607,14 @@
             }
         },
         {
+            "Key": "5cbb8e4a-3a24-46f7-a696-8c5598909dc2",
+            "Value": {
+                "id": "f48991a4-9584-4c80-815a-329f1f586966",
+                "resourcePath": "scripts\\ini_check\\ini_check.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5dc5d3f2-809a-4d32-b48a-08cf017303c0",
             "Value": {
                 "id": "5d603081-9c8a-4c44-9e88-f80801c3ea51",
@@ -676,6 +692,14 @@
                 "id": "1f434f9b-f632-4a11-98b6-d1892c8d339b",
                 "resourcePath": "sprites\\shield_spr\\shield_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6be4694b-6cdc-45cf-9080-e1648af65dd6",
+            "Value": {
+                "id": "2586c543-a4fc-46af-a9ba-a558c9e825aa",
+                "resourcePath": "objects\\boss_base\\boss_base.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1535,6 +1559,14 @@
             }
         },
         {
+            "Key": "f6db3b08-d74a-45ea-bd58-442d6b09e9ee",
+            "Value": {
+                "id": "26675f77-2474-409b-a6ac-698480ed02e4",
+                "resourcePath": "objects\\demon_obj\\demon_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f836b863-25e2-4e83-8b94-50f78ba2672d",
             "Value": {
                 "id": "c6d7379e-d7fb-4deb-b7b8-bebf4d26a2f1",
@@ -1567,6 +1599,14 @@
             }
         },
         {
+            "Key": "ff488027-5d7e-4ec1-ad0e-2e3ffff3d277",
+            "Value": {
+                "id": "4bb091eb-2cb5-4fc8-937b-99b19fcf06ec",
+                "resourcePath": "sprites\\demon_spr\\demon_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ffd8e67d-69bf-4e26-84a2-16eb554286be",
             "Value": {
                 "id": "3dac49d9-a5d3-49d8-9dd1-53469f0be040",
@@ -1595,7 +1635,8 @@
         "6a3aaca1-8795-42e6-8d53-ea461967e545",
         "a125ad6c-ff79-459a-8205-3eb8cbd940ac",
         "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0",
-        "0d5dc367-21e6-4feb-b04d-f8e48c02b33b"
+        "0d5dc367-21e6-4feb-b04d-f8e48c02b33b",
+        "5cbb8e4a-3a24-46f7-a696-8c5598909dc2"
     ],
     "tutorial": ""
 }

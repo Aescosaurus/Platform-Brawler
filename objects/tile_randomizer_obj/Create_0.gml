@@ -3,6 +3,8 @@
 randomize()
 seed = random_get_seed()
 
+cur_area = 3
+
 wave_size = 5
 
 room_count = 9
@@ -11,8 +13,6 @@ shop_count = 1
 hard_count = 1
 rogue_map = ds_map_create()
 gen_rogue_map( room_count,exit_count,shop_count,hard_count )
-
-cur_area = 0
 
 var t = 0
 tile_arr[t++] = red_tiles

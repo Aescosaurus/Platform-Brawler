@@ -24,7 +24,6 @@ for( var i = 0; i < pick_variety; ++i )
 	else
 	{
 		picks[i] = list.boss[irandom_range( 0,array_length_1d( list.boss ) - 1 )]
-		break
 	}
 }
 

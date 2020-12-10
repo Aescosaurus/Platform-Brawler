@@ -20,4 +20,4 @@ hard[h++] = flame_obj
 
 // final bosses
 var b = 0
-boss[b++] = noone
+boss[b++] = demon_obj

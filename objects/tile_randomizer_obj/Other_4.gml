@@ -90,8 +90,15 @@ var cur_room_type = rogue_map[? room_str]
 if( !ds_map_exists( player.visited_rooms,room_str ) &&
 	( cur_room_type == 0 || cur_room_type == 3 ) )
 {
-	if( cur_room_type == 0 ) spawn_enemies( wave_size,2 )
-	else spawn_enemies( wave_size * 2,3 )
+	if( cur_area < 3 )
+	{
+		if( cur_room_type == 0 ) spawn_enemies( wave_size,2 )
+		else spawn_enemies( wave_size * 2,3 )
+	}
+	else
+	{
+		spawn_enemies( 1,1 )
+	}
 }
 else
 {

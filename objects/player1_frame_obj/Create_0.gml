@@ -1,4 +1,5 @@
 event_inherited()
+unlocked = true
 
 text = "Rogue: high hp and close range attack"
 

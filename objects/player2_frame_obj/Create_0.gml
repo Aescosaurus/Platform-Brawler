@@ -1,4 +1,5 @@
 event_inherited()
+unlocked = ini_check( "win1" ) > 0
 
 text = "Archer: Medium range and slow attack"
 
