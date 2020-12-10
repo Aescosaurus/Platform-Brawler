@@ -116,13 +116,57 @@
             "y": 0
         },
         {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "bg_tiles",
+            "id": "c754256d-a06a-4902-8154-e4f158fd4ba7",
+            "depth": 300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 16,
+            "prev_tilewidth": 16,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 9,
+                "SerialiseWidth": 16,
+                "TileSerialiseData": [
+                    1,10,3,1,1,3,7,1,1,6,2,1,3,2,1,3,
+                    6,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,2147483648,0,2147483648,0,2147483648,2147483648,2147483648,2,
+                    6,2147483648,2147483648,10,7,1,0,0,0,0,0,5,7,2147483648,2147483648,6,
+                    6,0,0,2147483648,2147483648,2147483648,2147483648,0,0,0,0,0,0,0,2147483648,6,
+                    1,0,0,0,0,0,0,10,5,0,0,0,0,0,2147483648,3,
+                    1,0,0,0,0,0,0,2147483648,0,0,0,2147483648,2147483648,0,0,1,
+                    9,0,9,7,7,0,0,0,0,0,0,5,1,7,0,6,
+                    6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
+                    9,7,7,10,1,1,1,7,10,1,10,1,1,7,7,11
+                ]
+            },
+            "tilesetId": "61441d4f-0014-4d90-84c7-f0664a164873",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "bg",
             "id": "706cf7f7-b1a4-4a0c-b468-24a6ccd9349b",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

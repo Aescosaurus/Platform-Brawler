@@ -9,6 +9,8 @@ y_move += grav * dt
 var x_dir = sign( x_move )
 var y_dir = sign( y_move )
 
+airborne = true
+
 if( tilemap_get_at_pixel( tilemap,x + x_move + h_width * x_dir,y ) <= 0 )
 {
 	x += x_move
@@ -35,4 +37,5 @@ else if( y_dir > 0 )
 	}
 	
 	grav = 0.0
+	airborne = false
 }

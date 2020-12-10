@@ -7,5 +7,5 @@ tilemap = layer_tilemap_get_id( "tiles" )
 
 if( item_count < 1 )
 {
-	// instance_create_layer( x,y,"instances",blood_bow_obj )
+	// instance_create_layer( x,y,"instances",cannon_obj )
 }

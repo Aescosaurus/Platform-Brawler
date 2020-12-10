@@ -1,5 +1,10 @@
 hp -= other.damage
 
+if( airborne && variable_global_exists( "double_air_dmg" ) )
+{
+	hp -= other.damage
+}
+
 instance_destroy( other )
 
 var player = instance_find( player_obj,0 )

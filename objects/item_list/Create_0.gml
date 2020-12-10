@@ -17,6 +17,10 @@ items[i++] = steel_bow_obj
 items[i++] = rand_bow_obj
 items[i++] = moth_bow_obj
 items[i++] = blood_bow_obj
+items[i++] = cloak_obj
+items[i++] = bird_sword_obj
+items[i++] = rubber_band_obj
+items[i++] = cannon_obj
 
 
 descs = ds_map_create()
@@ -38,3 +42,7 @@ descs[? steel_bow_obj] = "Every hit shoot an arrow"
 descs[? rand_bow_obj] = "Every 3 hits shoot an arrow at a random enemy"
 descs[? moth_bow_obj] = "Every 6 hits spawn an arrow explosion"
 descs[? blood_bow_obj] = "Shoot arrows at all enemies on taking damage"
+descs[? cloak_obj] = "Every 20 shots become invulnerable for 4s"
+descs[? bird_sword_obj] = "Deal double damage to airborne enemies"
+descs[? rubber_band_obj] = "Fireballs now bounce of walls 1 time"
+descs[? cannon_obj] = "You can destroy enemy bullets by shooting them"

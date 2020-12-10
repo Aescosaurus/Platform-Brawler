@@ -2,6 +2,16 @@ tilemap = layer_tilemap_get_id( "tiles" )
 
 tilemap_tileset( tilemap,tile_arr[get_difficulty()] )
 
+// var bg_tilemap = layer_tilemap_get_id( "bg_tiles" )
+// tilemap_tileset( bg_tilemap,bg_arr[get_difficulty()] )
+// for( var iy = 0; iy < tilemap_get_height( bg_tilemap ); ++iy )
+// {
+// 	for( var ix = 0; ix < tilemap_get_width( bg_tilemap ); ++ix )
+// 	{
+// 		tilemap_set( bg_tilemap,irandom_range( 1,11 ),ix,iy )
+// 	}
+// }
+
 width = tilemap_get_width( tilemap )
 height = tilemap_get_height( tilemap )
 tile_width = tilemap_get_tile_width( tilemap )

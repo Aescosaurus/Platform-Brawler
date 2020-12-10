@@ -1,4 +1,5 @@
-if( !ouch_frames && !invul_frames )
+if( !ouch_frames && !invul_frames &&
+	( !variable_global_exists( "player_cloak" ) || global.player_cloak ) )
 {
 	// --hp and knockback and invul time
 	--hp

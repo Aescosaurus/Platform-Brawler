@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "21c4f4d9-113d-45e2-a5f8-3b3739c3858b",
+            "Value": {
+                "id": "84a32333-e1e2-494c-93ba-71312d972474",
+                "resourcePath": "sprites\\bg_red_spr\\bg_red_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21cb178c-9893-4b55-8caa-174aedf48e80",
             "Value": {
                 "id": "4ebc2396-f1f1-4bbf-9f72-549a4077021a",
@@ -259,6 +267,14 @@
             "Value": {
                 "id": "b8a7b2be-1c68-412f-b5e7-d401a4ba65e5",
                 "resourcePath": "sprites\\spider_spr\\spider_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "236309ef-1558-4714-9007-b91df54cb517",
+            "Value": {
+                "id": "eef98fb1-9252-4dd3-aa77-1765d05453f1",
+                "resourcePath": "sprites\\rubber_band_spr\\rubber_band_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "44d300b4-da6c-49a8-8afb-2d5de28fc528",
+            "Value": {
+                "id": "66d576b4-7d6c-4294-bc85-878c47b92496",
+                "resourcePath": "objects\\cannon_obj\\cannon_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4517aa53-fdc1-44a1-b770-5478595350b0",
             "Value": {
                 "id": "ca5c1f34-3d9a-4a77-bb1b-3ec005a0df46",
@@ -492,6 +516,14 @@
                 "id": "e142a8c6-28a1-471c-bc66-761c284adfd4",
                 "resourcePath": "sprites\\flame_spell_spr\\flame_spell_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "49dd9ea4-520d-42f5-880c-5232efaf09a3",
+            "Value": {
+                "id": "5ebf1c18-2626-43e2-aeb9-835df34209bf",
+                "resourcePath": "objects\\rubber_band_obj\\rubber_band_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -652,6 +684,14 @@
                 "id": "41c019d6-5eb1-4915-b298-3f75dafcc624",
                 "resourcePath": "rooms\\level4\\level4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "61441d4f-0014-4d90-84c7-f0664a164873",
+            "Value": {
+                "id": "8312733e-e797-4e49-904d-9d1a03f43a40",
+                "resourcePath": "tilesets\\bg_red_tiles\\bg_red_tiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -959,6 +999,14 @@
             }
         },
         {
+            "Key": "9f2b9409-27e2-4621-9bb6-f1e3f9cef574",
+            "Value": {
+                "id": "df23c62b-5a4c-4fda-8ba7-42e9b3854408",
+                "resourcePath": "sprites\\bird_sword_spr\\bird_sword_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a01be0d8-c427-48dd-841f-bb1661729b65",
             "Value": {
                 "id": "204d09c1-4c7f-4b49-932f-32616a6adf14",
@@ -1124,6 +1172,14 @@
                 "id": "b2eba8a1-75db-4061-8bfd-ea58d893a4a8",
                 "resourcePath": "tilesets\\red_tiles\\red_tiles.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "af8c8230-096c-4ef4-ac0a-c0375fb0737e",
+            "Value": {
+                "id": "a13860fa-22c0-4df0-8753-307a1befa086",
+                "resourcePath": "objects\\cloak_obj\\cloak_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1351,6 +1407,14 @@
             }
         },
         {
+            "Key": "d09c8f61-0c1d-45c6-9cb6-3eaaa8ed7197",
+            "Value": {
+                "id": "2b8e1bbc-c30f-4c88-92cc-15f5fa47d36a",
+                "resourcePath": "sprites\\cloak_spr\\cloak_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d118a0d5-5f06-4c46-9d8b-4f90b19c38a7",
             "Value": {
                 "id": "53c857bf-7b96-4fc3-871a-f468a167f590",
@@ -1415,6 +1479,14 @@
             }
         },
         {
+            "Key": "d6b935ba-aea8-4b3e-a26e-9a16f5c207e6",
+            "Value": {
+                "id": "2c0e0622-77a0-41b2-a57a-7f461c72da89",
+                "resourcePath": "objects\\bird_sword_obj\\bird_sword_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d8bd9a80-34c8-4398-b4b6-df1af25d39f8",
             "Value": {
                 "id": "f863ecd6-cec3-4415-931d-0dd8a160d456",
@@ -1460,6 +1532,14 @@
                 "id": "daaec16f-1ee8-4bdf-a371-654fc39b621a",
                 "resourcePath": "scripts\\get_len\\get_len.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "df592fb0-1229-4f3f-b136-05f8fac207d7",
+            "Value": {
+                "id": "311d77f1-84b3-4c56-aeed-c4fdf3e0d4ad",
+                "resourcePath": "sprites\\cannon_spr\\cannon_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

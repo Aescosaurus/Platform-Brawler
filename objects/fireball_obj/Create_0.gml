@@ -21,3 +21,5 @@ if( closest )
 }
 
 speed = 5
+
+bounces = 0
