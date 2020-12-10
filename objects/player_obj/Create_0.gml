@@ -13,7 +13,7 @@ wall_dir = 0
 x_shot_vel = 0
 y_shot_vel = 0
 
-refire = 0.12 * 60.0
+refire = 0.3 * room_speed// 0.12 * 60.0
 can_fire = false
 alarm_set( 0,refire )
 bullet_speed = 6.6
@@ -42,3 +42,16 @@ item_count = 0
 look_dir = 1
 
 coin_count = 0
+
+player_projectile = bullet_obj
+proj_dir_add = 0
+
+if( !global.player1 )
+{
+	max_hp = 2
+	hp = max_hp
+	player_projectile = player_arrow_obj
+	sprite_index = player2_spr
+	proj_dir_add = -45
+	refire = 0.55 * room_speed
+}

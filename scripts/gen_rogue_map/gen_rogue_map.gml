@@ -41,7 +41,6 @@ for( var i = 0; i < n_rooms; ++i )
 	{
 		// print( string( cur_x ) + " " + string( cur_y ) )
 		var room_type = room_data[| i]
-		room_type = 2 //
 		ds_map_add( map,xy2str( cur_x,cur_y ),room_type )
 	}
 	

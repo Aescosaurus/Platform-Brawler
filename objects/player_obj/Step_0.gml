@@ -121,10 +121,10 @@ if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 	
 	if( x_dir == 0.0 && x_shot_vel != 0.0 ) image_xscale = sign( x_shot_vel )
 	
-	var bullet = instance_create_layer( x,y,"instances",bullet_obj )
+	var bullet = instance_create_layer( x,y,"instances",player_projectile )
 	bullet.direction = point_direction( 0,0,x_shot_vel,y_shot_vel )
 	bullet.speed = bullet_speed
-	bullet.image_angle = bullet.direction
+	bullet.image_angle = bullet.direction + proj_dir_add
 	
 	if( y_shot_vel < 0.0 ) image_index = 8
 	else if( y_shot_vel > 0.0 ) image_index = 9
