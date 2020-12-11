@@ -1,3 +1,3 @@
 event_inherited()
 
-shot_timer = 1
+shot_timer = 2
