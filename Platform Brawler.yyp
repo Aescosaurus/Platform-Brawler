@@ -1479,6 +1479,14 @@
             }
         },
         {
+            "Key": "d6762dbb-2d82-4e35-ae9c-1f10d275c892",
+            "Value": {
+                "id": "5ae70c83-aa39-4de5-b1ac-c33fc0073615",
+                "resourcePath": "objects\\fake_global\\fake_global.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6b935ba-aea8-4b3e-a26e-9a16f5c207e6",
             "Value": {
                 "id": "2c0e0622-77a0-41b2-a57a-7f461c72da89",

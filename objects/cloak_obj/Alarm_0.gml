@@ -1,1 +1,1 @@
-global.player_cloak = false
+fake_global.player_cloak = false

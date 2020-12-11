@@ -1,3 +1,3 @@
 event_inherited()
 
-global.dest_bullets = true
+fake_global.dest_bullets = true

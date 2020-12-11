@@ -6,7 +6,7 @@ if( tilemap_get_at_pixel( tilemap,x,y ) > 0 )
 	}
 	else
 	{
-		if( bounces >= global.fireball_bounce )
+		if( bounces >= fake_global.fireball_bounce )
 		{
 			instance_destroy()
 		}

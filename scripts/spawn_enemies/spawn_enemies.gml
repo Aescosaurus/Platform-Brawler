@@ -7,7 +7,7 @@ for( var i = 0; i < array_length_1d( enemies ); ++i )
 	var cur_spawn = get_rand_spawn_pos()
 	var enemy = instance_create_layer( cur_spawn.x,cur_spawn.y,"instances",enemies[i] )
 	
-	if( global.chal2 )
+	if( fake_global.chal2 )
 	{
 		enemy.hp *= 2
 	}

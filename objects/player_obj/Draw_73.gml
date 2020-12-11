@@ -22,7 +22,7 @@ draw_text( coin_start + sprite_get_width( coin_spr ),1,"x" + string( coin_count 
 
 if( hp < 1 )
 {
-	global.time_scale = 0.0
+	fake_global.time_scale = 0.0
 	
 	draw_sprite( game_over_spr,0,room_width / 2,room_height / 2 )
 	
