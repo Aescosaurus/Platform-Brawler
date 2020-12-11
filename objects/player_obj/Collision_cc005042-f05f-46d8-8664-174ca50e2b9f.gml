@@ -1,9 +1,8 @@
-if( !ouch_frames && !invul_frames &&
-	( !variable_global_exists( "player_cloak" ) || fake_global.player_cloak ) )
+if( !ouch_frames && !invul_frames && !check_global( "player_cloak" ) )
 {
 	// --hp and knockback and invul time
 	--hp
-	if( fake_global.chal5 ) hp = 0
+	if( check_global( "chal5" ) ) hp = 0
 	
 	var x_diff = other.x - x
 	

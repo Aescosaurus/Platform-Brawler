@@ -1,1 +1,1 @@
-fake_global.player_cloak = false
+set_global( "player_cloak",false )

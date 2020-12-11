@@ -1,6 +1,6 @@
 event_inherited()
 
-if( fake_global.player_cloak )
+if( check_global( "player_cloak" ) )
 {
 	var player = instance_find( player_obj,0 )
 	

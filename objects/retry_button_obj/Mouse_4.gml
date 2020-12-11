@@ -1,5 +1,4 @@
 // player_obj.hp = player_obj.max_hp
-// fake_global.time_scale = 1.0
 // 
 // with( tile_randomizer_obj )
 // {
@@ -28,6 +27,8 @@ instance_destroy( tile_randomizer_obj )
 instance_destroy( enemy_list )
 instance_destroy( item_list )
 instance_destroy( room_list )
+
+ds_map_clear( fake_global.data )
 
 room_goto( config_room )
 

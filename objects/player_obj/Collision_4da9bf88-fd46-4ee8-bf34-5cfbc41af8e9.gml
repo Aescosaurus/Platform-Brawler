@@ -1,5 +1,4 @@
-if( !ouch_frames && !invul_frames &&
-	( !variable_global_exists( "player_cloak" ) || fake_global.player_cloak ) )
+if( !ouch_frames && !invul_frames && !check_global( "player_cloak" ) )
 {
 	// --hp and knockback and invul time
 	
@@ -17,7 +16,7 @@ if( !ouch_frames && !invul_frames &&
 	invul_frames = true
 	alarm_set( 1,ouch_dur )
 	
-	trigger_item_event( items,item_count,1,noone )
+	trigger_item_event( items,item_count,1,other )
 }
 
 instance_destroy( other )

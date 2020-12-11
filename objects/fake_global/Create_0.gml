@@ -1,0 +1,1 @@
+data = ds_map_create()

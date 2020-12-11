@@ -1,6 +1,6 @@
 hp -= other.damage
 
-if( airborne && variable_global_exists( "double_air_dmg" ) )
+if( airborne && check_global( "double_air_dmg" ) )
 {
 	hp -= other.damage
 }

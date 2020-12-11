@@ -102,12 +102,12 @@ if( !ds_map_exists( player.visited_rooms,room_str ) &&
 {
 	if( cur_area < 3 )
 	{
-		if( cur_room_type == 0 && !fake_global.chal3 ) spawn_enemies( wave_size,2 )
+		if( cur_room_type == 0 && !check_global( "chal3" ) ) spawn_enemies( wave_size,2 )
 		else spawn_enemies( wave_size * 2,3 )
 	}
 	else
 	{
-		for( var i = 0; i < ( fake_global.chal6 ? 2 : 1 ); ++i )
+		for( var i = 0; i < ( check_global( "chal6" ) ? 2 : 1 ); ++i )
 		{
 			spawn_enemies( 1,1 )
 		}

@@ -5,4 +5,4 @@ if( evt_data.airborne )
 	spawn_particles( particle_spr,3,22,30,
 		point_direction( player.x,player.y,evt_data.x,evt_data.y ),16,
 		20,noone,player )
-}	
+}

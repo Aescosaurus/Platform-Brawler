@@ -46,7 +46,7 @@ coin_count = 0
 player_projectile = bullet_obj
 proj_dir_add = 0
 
-if( !fake_global.player1 )
+if( !check_global( "player1" ) )
 {
 	max_hp = 3
 	hp = max_hp
@@ -56,7 +56,7 @@ if( !fake_global.player1 )
 	refire = 0.55 * room_speed
 }
 
-if( fake_global.chal1 )
+if( check_global( "chal1" ) )
 {
 	hp -= 1
 }

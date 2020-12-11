@@ -1,12 +1,13 @@
 if( tilemap_get_at_pixel( tilemap,x,y ) > 0 )
 {
-	if( ( !variable_global_exists( "fireball_bounce" ) ) )
+	var fireball_bounce = check_global( "fireball_bounce" )
+	if( fireball_bounce < 1 )
 	{
 		instance_destroy()
 	}
 	else
 	{
-		if( bounces >= fake_global.fireball_bounce )
+		if( bounces >= fireball_bounce )
 		{
 			instance_destroy()
 		}
