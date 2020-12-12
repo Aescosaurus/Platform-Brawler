@@ -21,4 +21,6 @@ hard[h++] = flame_obj
 // final bosses
 var b = 0
 // boss[b++] = demon_obj
-boss[b++] = wizard_obj
+// boss[b++] = wizard_obj
+// boss[b++] = cloud_obj
+boss[b++] = titan_obj
