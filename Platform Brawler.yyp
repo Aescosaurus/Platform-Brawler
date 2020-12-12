@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "07bda85b-4436-41e3-a5a7-2833161351f4",
+            "Value": {
+                "id": "c582ec07-aca2-480b-a920-6decf5e5b219",
+                "resourcePath": "sprites\\quiver_spr\\quiver_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "094aa8bf-42cc-4c8f-8714-210164b8d50e",
             "Value": {
                 "id": "25c16762-1951-4b2e-884d-2d2c3cb80e33",
@@ -559,6 +567,14 @@
             }
         },
         {
+            "Key": "4aecd8e0-237e-4c45-9423-5d78aeceb65b",
+            "Value": {
+                "id": "eb239b7f-314c-42cb-9fd4-64732bc6511b",
+                "resourcePath": "sprites\\flame_dagger_spr\\flame_dagger_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0",
             "Value": {
                 "id": "e39b01d6-f56d-4b29-8b7c-bb27df442a8f",
@@ -644,6 +660,14 @@
                 "id": "7d5bd934-7ef5-4239-bdf0-628506d76670",
                 "resourcePath": "sprites\\coin_particle_spr\\coin_particle_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "545f2db3-7ee5-41b7-945d-e01a63cbadf2",
+            "Value": {
+                "id": "6037e46d-a9cf-4c42-935f-1cd2ea5cb166",
+                "resourcePath": "objects\\flame_dagger_obj\\flame_dagger_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -919,6 +943,14 @@
             }
         },
         {
+            "Key": "83466af3-0178-436b-b16b-67a17f76f787",
+            "Value": {
+                "id": "090d3a5a-cbdd-4630-abd2-9e044f3b5604",
+                "resourcePath": "scripts\\get_rand_enemy\\get_rand_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8389d422-3851-408a-9d93-d283a1eba513",
             "Value": {
                 "id": "4112cb15-4e2d-4442-ac10-3b7999c2fbcb",
@@ -1167,6 +1199,14 @@
             }
         },
         {
+            "Key": "a8a525e5-7e21-49ea-b6a7-ee09c3cec5ff",
+            "Value": {
+                "id": "5ddf7d00-4492-4999-be86-28c7fdbf63e6",
+                "resourcePath": "sprites\\flame_sword_spr\\flame_sword_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "eca95cf5-d9f2-4af7-8cd9-ef34f080faa6",
@@ -1307,6 +1347,14 @@
             "Value": {
                 "id": "bdd75d36-30a6-42df-a870-3462665a87df",
                 "resourcePath": "objects\\titan_obj\\titan_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8e1c59c-5d0a-4e4f-b0b0-77a5c7d38889",
+            "Value": {
+                "id": "9e7e77ce-081d-49ef-9392-1affbdb236ee",
+                "resourcePath": "objects\\quiver_obj\\quiver_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1783,6 +1831,14 @@
             }
         },
         {
+            "Key": "f88a3d58-2ee5-445b-a5eb-dd1c0d204650",
+            "Value": {
+                "id": "499104c4-e56d-4869-bf2d-8c76e262fcaf",
+                "resourcePath": "objects\\flame_sword_obj\\flame_sword_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa9e82ed-66a5-4cef-8e66-33896351950d",
             "Value": {
                 "id": "e1693ebd-ad81-4919-9901-67ea2d734644",
@@ -1854,7 +1910,8 @@
         "5cbb8e4a-3a24-46f7-a696-8c5598909dc2",
         "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0",
         "2b8a0234-8798-4f66-91ec-051878355109",
-        "fd03304d-778c-460f-9908-95eef088b852"
+        "fd03304d-778c-460f-9908-95eef088b852",
+        "83466af3-0178-436b-b16b-67a17f76f787"
     ],
     "tutorial": ""
 }
