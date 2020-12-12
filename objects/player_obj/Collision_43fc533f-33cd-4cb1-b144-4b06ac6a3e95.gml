@@ -1,3 +1,6 @@
+invul_frames = true
+alarm_set( 1,ouch_dur )
+
 if( !updated_rpos )
 {
 	updated_rpos = true
