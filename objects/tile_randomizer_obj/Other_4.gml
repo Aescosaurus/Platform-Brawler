@@ -77,7 +77,9 @@ for( var iy = 0; iy < height; ++iy )
 			if( door.image_index < 1 )
 			{
 				// Make sure player can't go through closed doors.
-				tilemap_set( tilemap,1,ix,iy )
+				// tilemap_set( tilemap,1,ix,iy )
+				instance_destroy( door )
+				tilemap_set( tilemap,choose( 1,2,3, 5,6,7, 9,10,11 ),ix,iy )
 			}
 		}
 		else if( tile == 8 )
