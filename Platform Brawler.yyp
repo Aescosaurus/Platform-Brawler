@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "075f3c05-7182-43f1-b576-5337d28befae",
+            "Value": {
+                "id": "5ecc0930-e754-4398-8be6-5b208910a666",
+                "resourcePath": "objects\\yellow_orb_obj\\yellow_orb_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07bda85b-4436-41e3-a5a7-2833161351f4",
             "Value": {
                 "id": "c582ec07-aca2-480b-a920-6decf5e5b219",
@@ -148,6 +156,14 @@
                 "id": "c79678c1-ce85-44ea-a848-466024a39f37",
                 "resourcePath": "rooms\\init_room\\init_room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "0d7b35c0-28f9-40ec-9078-90638d33c15c",
+            "Value": {
+                "id": "1bda79f2-8414-4c52-bcd2-04d1524ddf67",
+                "resourcePath": "sprites\\blue_orb_spr\\blue_orb_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -567,6 +583,14 @@
             }
         },
         {
+            "Key": "46f60354-fea5-4a51-936a-f71a7aee5b04",
+            "Value": {
+                "id": "bd6b871b-7ed5-4998-8968-dd4420ff4950",
+                "resourcePath": "sprites\\yellow_orb_spr\\yellow_orb_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "470aa910-6b2f-4f0f-b14e-4f50f177240e",
             "Value": {
                 "id": "e142a8c6-28a1-471c-bc66-761c284adfd4",
@@ -684,6 +708,14 @@
                 "id": "72e07295-c622-4b7d-9bf4-e2cf60b58ba3",
                 "resourcePath": "objects\\ice_cube_obj\\ice_cube_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5351d9fb-a8b6-45a2-bd46-0a3e0ecfeb0a",
+            "Value": {
+                "id": "ee6fc21a-240c-46a7-9c70-12b6e5d2032d",
+                "resourcePath": "sprites\\red_orb_spr\\red_orb_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1116,6 +1148,14 @@
                 "id": "5a40a77e-2a91-4273-90b2-41f4454be3b5",
                 "resourcePath": "sprites\\chal5_spr\\chal5_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a1a4aaa-509b-412c-b721-26292a398e53",
+            "Value": {
+                "id": "e20b2c31-acb5-464c-921b-e7fc0ba967df",
+                "resourcePath": "objects\\green_orb_obj\\green_orb_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1711,6 +1751,14 @@
             }
         },
         {
+            "Key": "d9a516a7-484f-44cb-b770-0e566fe3b132",
+            "Value": {
+                "id": "f0183011-6f38-4079-aac7-2f3b0e766c83",
+                "resourcePath": "sprites\\green_orb_spr\\green_orb_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9f1c090-2872-46f4-8f05-bb3e15e6ddf8",
             "Value": {
                 "id": "8a8341b2-5703-4ff0-97fe-bec3c041300c",
@@ -1823,6 +1871,14 @@
             }
         },
         {
+            "Key": "ebf78de2-6cd3-452c-aa92-21fe6fa956da",
+            "Value": {
+                "id": "d5f4baed-15c7-407c-ae63-36884edc002b",
+                "resourcePath": "objects\\red_orb_obj\\red_orb_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ecea72c6-3ca4-4b55-8e36-22c44cffe752",
             "Value": {
                 "id": "fc7e5ded-6ca6-45d8-bb55-81b2daad4fb9",
@@ -1844,6 +1900,14 @@
                 "id": "2270a940-7405-41a0-b43e-3595063855e9",
                 "resourcePath": "sprites\\coin_spr\\coin_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0743e1b-dd1e-4c2c-bae4-a92003fcf4b7",
+            "Value": {
+                "id": "71aea079-4349-49f6-9571-e4d101fab686",
+                "resourcePath": "objects\\blue_orb_obj\\blue_orb_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

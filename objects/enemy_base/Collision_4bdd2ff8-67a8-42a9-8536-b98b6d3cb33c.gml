@@ -1,10 +1,14 @@
-hp -= other.damage
+var total_dmg = other.damage
 
 if( ( airborne && check_global( "double_air_dmg" ) ) ||
 	( frozen && check_global( "double_frozen_dmg" ) ) )
 {
-	hp -= other.damage
+	total_dmg += other.damage
 }
+
+if( check_global( "red_orb" ) ) total_dmg *= 1.25
+
+hp -= total_dmg
 
 instance_destroy( other )
 

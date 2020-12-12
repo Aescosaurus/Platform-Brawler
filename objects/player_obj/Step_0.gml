@@ -4,6 +4,7 @@ var dt = get_dt()
 
 // -----Movement code!-----
 var x_move = ( keyboard_check( ord( "D" ) ) - keyboard_check( ord( "A" ) ) ) * move_speed * dt
+if( check_global( "green_orb" ) ) x_move *= 1.25
 var y_move = 0.0
 
 if( x_move != 0.0 ) look_dir = sign( x_move )
@@ -20,7 +21,7 @@ if( can_jump || ( x_move != 0.0 && sign( x_move ) != wall_dir ) )
 // Move up if jumping.
 if( jumping && !ouch_frames )
 {
-	y_move -= jump_pow * dt
+	y_move -= jump_pow * dt * ( check_global( "blue_orb" ) ? 1.25 : 1.0 )
 }
 
 // Update gravity things.
@@ -126,7 +127,7 @@ else
 if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 {
 	can_fire = false
-	alarm_set( 0,refire )
+	alarm_set( 0,refire * ( check_global( "yellow_orb" ) ? 0.75 : 1.0 ) )
 	
 	if( x_dir == 0.0 && x_shot_vel != 0.0 ) image_xscale = sign( x_shot_vel )
 	

@@ -31,7 +31,10 @@ items[i++] = ice_sword_obj
 items[i++] = ice_cube_obj
 items[i++] = ice_cream_obj
 items[i++] = wing_shoes_obj
-
+items[i++] = red_orb_obj
+items[i++] = yellow_orb_obj
+items[i++] = green_orb_obj
+items[i++] = blue_orb_obj
 
 
 //                                  "This is the max length before it gets cut off"
@@ -68,3 +71,7 @@ descs[? ice_sword_obj] =            "Every 5th hit freezes enemy for 2s"
 descs[? ice_cube_obj] =             "Deal double damage to frozen enemies"
 descs[? ice_cream_obj] =            "Fireballs freeze enemies"
 descs[? wing_shoes_obj] =           "You can now control your jump height"
+descs[? red_orb_obj] =              "25% more damage"
+descs[? yellow_orb_obj] =           "25% faster fire rate"
+descs[? green_orb_obj] =            "25% faster movement speed"
+descs[? blue_orb_obj] =             "25% more jump height"
