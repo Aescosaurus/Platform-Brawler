@@ -3,7 +3,7 @@ desc = item_list.descs[? object_index]
 
 var player = instance_find( player_obj,0 )
 
-target_x = 1 + player.item_count * 8 + sprite_width / 2
+target_x = 0 + player.item_count * ( 8 + 1 ) + sprite_width / 2
 target_y = 8 + sprite_height / 2
 
 player.items[player.item_count++] = self

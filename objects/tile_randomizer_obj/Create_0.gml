@@ -3,7 +3,7 @@
 randomize()
 seed = random_get_seed()
 
-cur_area = 0
+cur_area = 3
 
 wave_size = 5
 
@@ -20,5 +20,5 @@ tile_arr[t++] = blue_tiles
 tile_arr[t++] = green_tiles
 tile_arr[t++] = gold_tiles
 
-var b = 0
-bg_arr[b++] = bg_red_tiles
+// var b = 0
+// bg_arr[b++] = bg_red_tiles
