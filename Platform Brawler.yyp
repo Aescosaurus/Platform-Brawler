@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "0ee69e04-699f-4a53-ac81-dc6d8640f3ea",
+            "Value": {
+                "id": "0a888517-4c30-44b0-8ca0-782590389c1f",
+                "resourcePath": "sprites\\ice_cream_spr\\ice_cream_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1508dccc-073b-42af-9a9c-a5878c6efe2e",
             "Value": {
                 "id": "f975c052-e74d-41e7-9db4-43a1ae25e3f3",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "39e8d197-2fc6-4ff2-af79-ae6174b59ba5",
+            "Value": {
+                "id": "0d14935e-15ad-4d7d-8b54-96b8d11d7698",
+                "resourcePath": "objects\\ice_cream_obj\\ice_cream_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3bf9913d-fc46-48c3-9619-3b8fe4976da5",
             "Value": {
                 "id": "b53dc3ef-e739-477b-aae2-793b5ab8f1b5",
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "48c4cebc-0b0f-44d5-9e4f-37172658e858",
+            "Value": {
+                "id": "e76171f0-d230-4406-a779-d787e562fbbd",
+                "resourcePath": "sprites\\ice_sword_spr\\ice_sword_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "49dd9ea4-520d-42f5-880c-5232efaf09a3",
             "Value": {
                 "id": "5ebf1c18-2626-43e2-aeb9-835df34209bf",
@@ -631,6 +655,14 @@
             }
         },
         {
+            "Key": "4f460303-9fc2-4bc7-b980-15670f0a72f2",
+            "Value": {
+                "id": "7a0247ef-0cfb-4972-893b-3e6972bf0eed",
+                "resourcePath": "objects\\wing_shoes_obj\\wing_shoes_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f4e43cb-71c4-479f-9c2b-da97401b70e4",
             "Value": {
                 "id": "50b5de82-2a8b-4208-83a0-6945feb562a2",
@@ -643,6 +675,14 @@
             "Value": {
                 "id": "127ee164-afa1-4134-9d43-b30fca84145b",
                 "resourcePath": "objects\\broken_wand_obj\\broken_wand_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "51b9945f-50ca-4b4c-a00d-2fea10f33229",
+            "Value": {
+                "id": "72e07295-c622-4b7d-9bf4-e2cf60b58ba3",
+                "resourcePath": "objects\\ice_cube_obj\\ice_cube_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -692,6 +732,14 @@
                 "id": "7205a13d-d6e9-43dc-bb91-03f4b59bf699",
                 "resourcePath": "objects\\witch_obj\\witch_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "582c1876-1e31-4e33-8c57-efb73b95793b",
+            "Value": {
+                "id": "458a39e7-d4cd-49b9-a562-ae79aee2e851",
+                "resourcePath": "sprites\\wing_shoes_spr\\wing_shoes_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1231,6 +1279,14 @@
             }
         },
         {
+            "Key": "aaad4ffa-4eb4-4a09-80c0-c124845c57f5",
+            "Value": {
+                "id": "a83f5864-7a8a-4d88-b497-a8af58ed4fb4",
+                "resourcePath": "objects\\ice_sword_obj\\ice_sword_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "abd6dd70-ff6b-4c9a-8935-40a75e9d27a2",
             "Value": {
                 "id": "cd4ecaae-7f60-482c-88b2-94a8f7446584",
@@ -1515,6 +1571,14 @@
             "Value": {
                 "id": "fc464a2e-e26d-48cf-a2ce-2d60aad46aab",
                 "resourcePath": "sprites\\flame_armor_spr\\flame_armor_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca0efeaa-8699-4707-bba7-53e9f5d76036",
+            "Value": {
+                "id": "eed633cd-747c-42b9-9348-a5b3ddf8bb09",
+                "resourcePath": "sprites\\ice_cube_spr\\ice_cube_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

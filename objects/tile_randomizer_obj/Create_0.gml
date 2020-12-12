@@ -3,7 +3,7 @@
 randomize()
 seed = random_get_seed()
 
-cur_area = 0
+cur_area = 2
 
 wave_size = 5
 

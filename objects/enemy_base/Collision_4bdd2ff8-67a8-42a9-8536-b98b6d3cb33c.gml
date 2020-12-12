@@ -1,6 +1,7 @@
 hp -= other.damage
 
-if( airborne && check_global( "double_air_dmg" ) )
+if( ( airborne && check_global( "double_air_dmg" ) ) ||
+	( frozen && check_global( "double_frozen_dmg" ) ) )
 {
 	hp -= other.damage
 }

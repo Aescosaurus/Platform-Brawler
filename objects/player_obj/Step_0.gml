@@ -27,6 +27,15 @@ if( jumping && !ouch_frames )
 grav += grav_acc * dt
 y_move += grav * dt
 
+// Dynamic jump if you have a certain item.
+if( jumping && !keyboard_check( ord( "W" ) ) && check_global( "jump_control" ) &&
+	y_move < 0.0 )
+{
+	grav = 0.0
+	jumping = false
+	can_jump = false
+}
+
 if( grav > jump_pow ) image_index = 5
 
 if( ouch_frames )

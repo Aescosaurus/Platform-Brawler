@@ -31,7 +31,11 @@
         "38e9772b-36ef-4b6a-8a4d-8b80ce835a83",
         "4aecd8e0-237e-4c45-9423-5d78aeceb65b",
         "a8a525e5-7e21-49ea-b6a7-ee09c3cec5ff",
-        "07bda85b-4436-41e3-a5a7-2833161351f4"
+        "07bda85b-4436-41e3-a5a7-2833161351f4",
+        "48c4cebc-0b0f-44d5-9e4f-37172658e858",
+        "ca0efeaa-8699-4707-bba7-53e9f5d76036",
+        "0ee69e04-699f-4a53-ac81-dc6d8640f3ea",
+        "582c1876-1e31-4e33-8c57-efb73b95793b"
     ],
     "filterType": "GMSprite",
     "folderName": "itenz",
