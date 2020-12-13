@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "4414428c-bc68-4ae0-adf8-a98d35f65314",
+            "Value": {
+                "id": "623ea9fd-77cb-4df3-88a3-0af66add5a87",
+                "resourcePath": "sprites\\shooting_star_spr\\shooting_star_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44d300b4-da6c-49a8-8afb-2d5de28fc528",
             "Value": {
                 "id": "66d576b4-7d6c-4294-bc85-878c47b92496",
@@ -740,6 +748,14 @@
                 "id": "5162861e-1bd5-4cd6-a0c1-e7bc267a611d",
                 "resourcePath": "sprites\\player1_frame_spr\\player1_frame_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "53dc823c-4146-41f3-b900-d79008583990",
+            "Value": {
+                "id": "f1a6e194-7d54-4803-9e54-8251962e9b56",
+                "resourcePath": "objects\\mini_ninja_obj\\mini_ninja_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1127,6 +1143,14 @@
             }
         },
         {
+            "Key": "8c32e428-a2de-4046-a05b-9d4aec801c26",
+            "Value": {
+                "id": "337e8899-475b-42d9-b776-0cab12f9d62a",
+                "resourcePath": "scripts\\get_player\\get_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8deb9729-26a3-4ca5-ab59-2d4691ee7a47",
             "Value": {
                 "id": "7b53bbeb-2423-4b1d-bf76-50a8ff25f1f6",
@@ -1383,6 +1407,14 @@
             }
         },
         {
+            "Key": "a8f264c7-4e15-4359-9f7c-07e410bf186c",
+            "Value": {
+                "id": "2c952cf3-3189-4b09-a7dd-6381d48a58a0",
+                "resourcePath": "objects\\star_gun_obj\\star_gun_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "eca95cf5-d9f2-4af7-8cd9-ef34f080faa6",
@@ -1543,6 +1575,14 @@
             }
         },
         {
+            "Key": "b92c350c-e105-49ad-bc45-ca323a238599",
+            "Value": {
+                "id": "11bf9010-3993-45d8-b8f7-f4578f6a8f11",
+                "resourcePath": "objects\\ninja_beam_obj\\ninja_beam_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ba175398-0d2e-4f09-9a49-abe7a3059d83",
             "Value": {
                 "id": "c588d513-2869-4a70-b822-168a52db193c",
@@ -1555,6 +1595,14 @@
             "Value": {
                 "id": "1a32e4ff-60a0-4bd2-affb-f3a4153d7641",
                 "resourcePath": "sprites\\broken_wand_spr\\broken_wand_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb213b10-536a-4558-9917-64b1ecbca85c",
+            "Value": {
+                "id": "c2851646-97d0-4f80-b7c9-c2f90d63268e",
+                "resourcePath": "sprites\\mini_ninja_spr\\mini_ninja_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1724,6 +1772,14 @@
                 "id": "5c2857d1-ec1b-4017-b5f1-23cf968b201b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd351b3b-c0a6-481b-9dd8-1ba0cbf50de1",
+            "Value": {
+                "id": "c78544dc-f628-456e-aa05-14ea8cdd10c2",
+                "resourcePath": "sprites\\ninja_beam_spr\\ninja_beam_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1943,6 +1999,14 @@
             }
         },
         {
+            "Key": "ea1d1104-e9ef-4125-9c80-feb7a182845b",
+            "Value": {
+                "id": "6242dd34-8ac3-4258-b4db-401abb9475f6",
+                "resourcePath": "objects\\shooting_star_obj\\shooting_star_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ea622d3a-9eb5-41b1-bd47-217070abd0f7",
             "Value": {
                 "id": "757d3e8e-a6bd-4113-adfc-8e59a47f35ee",
@@ -2055,6 +2119,14 @@
             }
         },
         {
+            "Key": "f8d9b64d-1af9-4c06-ac6e-4bf90e0b47ce",
+            "Value": {
+                "id": "b1f8e867-419d-4ec1-b493-9693e96de735",
+                "resourcePath": "sprites\\star_gun_spr\\star_gun_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fa9e82ed-66a5-4cef-8e66-33896351950d",
             "Value": {
                 "id": "e1693ebd-ad81-4919-9901-67ea2d734644",
@@ -2127,7 +2199,8 @@
         "4b6a7af9-26c2-4d0e-97c4-acb3e9361ca0",
         "2b8a0234-8798-4f66-91ec-051878355109",
         "fd03304d-778c-460f-9908-95eef088b852",
-        "83466af3-0178-436b-b16b-67a17f76f787"
+        "83466af3-0178-436b-b16b-67a17f76f787",
+        "8c32e428-a2de-4046-a05b-9d4aec801c26"
     ],
     "tutorial": ""
 }

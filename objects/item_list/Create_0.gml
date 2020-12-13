@@ -35,6 +35,11 @@ items[i++] = red_orb_obj
 items[i++] = yellow_orb_obj
 items[i++] = green_orb_obj
 items[i++] = blue_orb_obj
+items[i++] = shuriken_obj
+items[i++] = mini_ninja_obj
+items[i++] = star_gun_obj
+items[i++] = shooting_star_obj
+items[i++] = ninja_beam_obj
 
 
 //                                  "This is the max length before it gets cut off"
@@ -75,3 +80,8 @@ descs[? red_orb_obj] =              "25% more damage"
 descs[? yellow_orb_obj] =           "25% faster fire rate"
 descs[? green_orb_obj] =            "25% faster movement speed"
 descs[? blue_orb_obj] =             "25% more jump height"
+descs[? shuriken_obj] =             "Throw a star every 12 shots"
+descs[? mini_ninja_obj] =           "On taking damage throw 8 stars randomly"
+descs[? star_gun_obj] =             "Throw a star shotgun every 23 shots"
+descs[? shooting_star_obj] =        "Every 15 shots create a mini star explosion"
+descs[? ninja_beam_obj] =           "Every 20 shots throw 3 stars quickly"
