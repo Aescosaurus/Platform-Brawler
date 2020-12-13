@@ -1,6 +1,6 @@
 event_inherited()
 
-shot_timer = 20
+shot_timer = 30
 
 set_global( "player_cloak",false )
 

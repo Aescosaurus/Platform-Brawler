@@ -21,8 +21,8 @@ if( instance_number( enemy_base ) <= 1 )
 	{
 		instance_create_layer( x,y,"instances",gen_rand_item() )
 	}
-	else if( random_range( 0.0,1.0 ) < 0.02 )
-	{
-		instance_create_layer( x,y,"instances",gen_rand_item() )
-	}
+	// else if( random_range( 0.0,1.0 ) < 0.02 )
+	// {
+	// 	instance_create_layer( x,y,"instances",gen_rand_item() )
+	// }
 }
