@@ -60,3 +60,5 @@ if( check_global( "chal1" ) )
 {
 	hp -= 1
 }
+
+won = false

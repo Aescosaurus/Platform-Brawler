@@ -32,3 +32,8 @@ if( hp < 1 )
 			"instances",retry_button_obj )
 	}
 }
+
+if( won )
+{
+	draw_sprite( you_win_spr,0,room_width / 2,room_height / 2 - 10 )
+}

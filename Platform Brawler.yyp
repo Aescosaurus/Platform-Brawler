@@ -1255,6 +1255,14 @@
             }
         },
         {
+            "Key": "a1862133-22aa-411a-8517-e4ed1bdbed55",
+            "Value": {
+                "id": "23d1300c-86f9-4b22-94a7-59a629b7b095",
+                "resourcePath": "sprites\\you_win_spr\\you_win_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a2f4f174-383b-4c3d-8fa7-f3058ec16642",
             "Value": {
                 "id": "6813d565-e536-47c4-8c9b-4a6c96fc61e9",
