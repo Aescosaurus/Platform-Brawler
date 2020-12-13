@@ -1,6 +1,6 @@
 1.0.0←ed6a955d-5826-4f98-a450-10b414266c27←ed6a955d-5826-4f98-a450-10b414266c27|{
     "option_gameguid": "5d80c67b-2e47-46a4-8336-00500c02cef0",
-    "option_lastchanged": "08 October 2018 20:51:10",
+    "option_lastchanged": "13 December 2020 11:50:38",
     "option_game_speed": 24,
     "option_sci_usesci": true,
     "option_draw_colour": {
