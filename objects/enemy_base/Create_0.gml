@@ -15,3 +15,8 @@ image_index = random_range( 0,image_number )
 
 airborne = false
 frozen = false
+
+knockback = false
+knockback_dur = 0.5 * room_speed
+knockback_xvel = 0.0
+knockback_yvel = 0.0

@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "3f0c66f5-2562-4d5c-8380-26b446664b14",
+            "Value": {
+                "id": "88f728cc-2c60-4a05-b829-e5026bad0ea7",
+                "resourcePath": "scripts\\find_closest_enemy\\find_closest_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "413b2346-b39e-4335-bc13-b87a829572f2",
             "Value": {
                 "id": "02bde507-7760-4077-b056-095d1792e67e",
@@ -812,6 +820,14 @@
                 "id": "458a39e7-d4cd-49b9-a562-ae79aee2e851",
                 "resourcePath": "sprites\\wing_shoes_spr\\wing_shoes_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a866e96-b0a8-4438-a2e7-bde065408bd3",
+            "Value": {
+                "id": "31f57d2c-b038-4011-9578-d0ebeed0f0bf",
+                "resourcePath": "objects\\lucky_dice_obj\\lucky_dice_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1236,6 +1252,14 @@
                 "id": "e20b2c31-acb5-464c-921b-e7fc0ba967df",
                 "resourcePath": "objects\\green_orb_obj\\green_orb_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9a4b91c0-d1a8-4eb4-8cda-987bfbd4ca14",
+            "Value": {
+                "id": "833fb70d-b6dd-41f3-bae8-18e45217ad68",
+                "resourcePath": "sprites\\fist_spr\\fist_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1919,6 +1943,14 @@
             }
         },
         {
+            "Key": "db4a473c-c1c2-4ebc-839f-6e2047cd6471",
+            "Value": {
+                "id": "d606b2be-7e4c-4eab-a5f7-177a9d8e2f8e",
+                "resourcePath": "sprites\\lucky_dice_spr\\lucky_dice_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de471c13-f3f2-45b3-a83d-b00fe6f3e9ad",
             "Value": {
                 "id": "177a9c76-fbc7-43b4-8cfb-88e5f0081b03",
@@ -1964,6 +1996,14 @@
                 "id": "01785981-be59-45c5-b9f3-0566a2d16426",
                 "resourcePath": "sprites\\explode_spr\\explode_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e336cc76-8cc5-452c-9909-2e1aa8c3f5b2",
+            "Value": {
+                "id": "33f9e357-ec04-4cc6-a396-85de598d0fcc",
+                "resourcePath": "objects\\fist_obj\\fist_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2200,7 +2240,8 @@
         "2b8a0234-8798-4f66-91ec-051878355109",
         "fd03304d-778c-460f-9908-95eef088b852",
         "83466af3-0178-436b-b16b-67a17f76f787",
-        "8c32e428-a2de-4046-a05b-9d4aec801c26"
+        "8c32e428-a2de-4046-a05b-9d4aec801c26",
+        "3f0c66f5-2562-4d5c-8380-26b446664b14"
     ],
     "tutorial": ""
 }

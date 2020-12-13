@@ -23,6 +23,14 @@ if( check_global( "fireball_freeze" ) )
 		random_range( 30,45 ),noone,self )
 }
 
+// if( variable_instance_exists( other,"knockback" ) )
+{
+	knockback = true
+	knockback_xvel = sign( x - other.x ) * other.knockback
+	knockback_yvel = -other.knockback
+	alarm_set( 11,knockback_dur )
+}
+
 var player = instance_find( player_obj,0 )
 trigger_item_event( player.items,player.item_count,2,self )
 

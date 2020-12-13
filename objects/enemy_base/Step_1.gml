@@ -3,6 +3,15 @@ var dt = get_dt()
 var x_move = x_vel * dt
 var y_move = y_vel * dt
 
+if( knockback )
+{
+	x_move += knockback_xvel * dt
+	y_move += knockback_yvel * dt
+	
+	knockback_xvel -= knockback_xvel * dt
+	knockback_yvel -= knockback_yvel * dt
+}
+
 grav += grav_acc * dt
 y_move += grav * dt
 
