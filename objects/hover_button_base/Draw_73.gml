@@ -5,7 +5,7 @@ draw_set_halign( fa_left )
 if( hover )
 {
 	if( unlocked ) draw_text( 5,107,text )
-	else draw_text( 5,107,"Beat game with previous challenges to unlock!" )
+	else draw_text( 5,107,locked_msg )
 }
 
 if( !unlocked )

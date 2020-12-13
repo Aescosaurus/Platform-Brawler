@@ -1,5 +1,5 @@
 event_inherited()
-hp = 50
+hp = 70
 
 dir = choose( -1,1 )
 image_xscale = dir

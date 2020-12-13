@@ -7,5 +7,5 @@ tilemap = layer_tilemap_get_id( "tiles" )
 
 if( item_count < 1 )
 {
-	// instance_create_layer( x,y,"instances",blue_orb_obj )
+	// instance_create_layer( x,y,"instances",magic_wand_obj )
 }
