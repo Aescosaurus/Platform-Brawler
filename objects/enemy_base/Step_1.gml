@@ -12,6 +12,14 @@ if( knockback )
 	knockback_yvel -= knockback_yvel * dt
 }
 
+if( freezing_dur > 0.0 )
+{
+	freezing_dur -= dt
+	if( freezing_dur < 0.0 ) freezing_dur = 0.0
+	x_move = 0.0
+	y_move = 0.0
+}
+
 grav += grav_acc * dt
 y_move += grav * dt
 

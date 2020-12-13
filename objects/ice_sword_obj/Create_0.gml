@@ -2,6 +2,6 @@ event_inherited()
 
 shot_timer = 5
 
-frozen_enemy = noone
+// frozen_enemy = noone
 
-freeze_duration = 2 * room_speed
+freeze_duration = 2

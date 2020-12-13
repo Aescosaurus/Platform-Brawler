@@ -1,7 +1,7 @@
 var total_dmg = other.damage
 
 if( ( airborne && check_global( "double_air_dmg" ) ) ||
-	( frozen && check_global( "double_frozen_dmg" ) ) )
+	( freezing_dur > 0.0 && check_global( "double_frozen_dmg" ) ) )
 {
 	total_dmg += other.damage
 }
@@ -15,11 +15,12 @@ instance_destroy( other )
 if( check_global( "fireball_freeze" ) )
 {
 	var ice_cream = instance_find( ice_cream_obj,0 )
-	ice_cream.frozen_enemy = self
-	frozen = true
-	with( ice_cream ) alarm_set( 0,2.0 * room_speed )
+	// ice_cream.frozen_enemy = self
+	// frozen = true
+	freezing_dur += ice_cream.freeze_duration
+	// with( ice_cream ) alarm_set( 0,2.0 * room_speed )
 	
-	spawn_particles( particle_spr,5,10,22,0,360,
+	spawn_particles( particle_spr,5,10,22,315,70,
 		random_range( 30,45 ),noone,self )
 }
 

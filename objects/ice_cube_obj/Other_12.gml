@@ -1,4 +1,4 @@
-if( evt_data.frozen )
+if( evt_data.freezing_dur > 0.0 )
 {
 	var player = instance_find( player_obj,0 )
 	spawn_particles( particle_spr,2,10,22,

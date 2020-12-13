@@ -20,3 +20,5 @@ knockback = false
 knockback_dur = 0.5 * room_speed
 knockback_xvel = 0.0
 knockback_yvel = 0.0
+
+freezing_dur = 0.0
