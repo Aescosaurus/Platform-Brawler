@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "17e092aa-46e5-447e-83c6-73b126cc685d",
+            "Value": {
+                "id": "28337eda-2fc1-4472-b729-171e03e335b7",
+                "resourcePath": "objects\\metal_fist_obj\\metal_fist_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "192017cc-d654-48e2-a4a2-4c172ab49ac5",
             "Value": {
                 "id": "e01f5db6-4cb1-4361-a262-7f37548b842f",
@@ -1271,6 +1279,14 @@
             }
         },
         {
+            "Key": "9c277776-db5e-4061-a115-bb53b5107a66",
+            "Value": {
+                "id": "a7f3475d-570e-487f-9075-e39cc19179c5",
+                "resourcePath": "sprites\\metal_fist_spr\\metal_fist_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9cb97483-6a9d-46c8-a623-bf5331e656ae",
             "Value": {
                 "id": "fe84847e-6f7a-4b29-9986-414d308f14a1",
@@ -1587,6 +1603,14 @@
             "Value": {
                 "id": "bdd75d36-30a6-42df-a870-3462665a87df",
                 "resourcePath": "objects\\titan_obj\\titan_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b7d68b64-8e23-449e-8c8e-2f05c16f0f97",
+            "Value": {
+                "id": "fdfb08da-8670-401f-bdcb-ddc699eccdf6",
+                "resourcePath": "objects\\boxing_glove_obj\\boxing_glove_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2020,6 +2044,14 @@
                 "id": "27c08092-7bea-4c60-b920-d185a494effd",
                 "resourcePath": "views\\e4d04525-e66b-42ad-aae3-410727d832a4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e564efa0-dd6c-4624-9dbc-f2d9bcea802d",
+            "Value": {
+                "id": "f0197446-8a25-415f-a6d5-b2fafde4a53d",
+                "resourcePath": "sprites\\boxing_glove_spr\\boxing_glove_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

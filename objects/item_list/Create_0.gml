@@ -40,6 +40,9 @@ items[i++] = mini_ninja_obj
 items[i++] = star_gun_obj
 items[i++] = shooting_star_obj
 items[i++] = ninja_beam_obj
+items[i++] = lucky_dice_obj
+items[i++] = metal_fist_obj
+items[i++] = boxing_glove_obj
 
 
 //                                  "This is the max length before it gets cut off"
@@ -85,3 +88,6 @@ descs[? mini_ninja_obj] =           "On taking damage throw 8 stars randomly"
 descs[? star_gun_obj] =             "Throw a star shotgun every 23 shots"
 descs[? shooting_star_obj] =        "Every 15 shots create a mini star explosion"
 descs[? ninja_beam_obj] =           "Every 20 shots throw 3 stars quickly"
+descs[? lucky_dice_obj] =           "Throw a fist every 6-12 shots"
+descs[? metal_fist_obj] =           "Throw a fist shotgun every 20 shots"
+descs[? boxing_glove_obj] =         "Throw a fist to block the next damage"
