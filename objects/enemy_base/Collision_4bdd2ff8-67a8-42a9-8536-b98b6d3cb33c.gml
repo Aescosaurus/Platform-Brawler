@@ -12,7 +12,7 @@ hp -= total_dmg
 
 instance_destroy( other )
 
-if( check_global( "fireball_freeze" ) )
+if( other.object_index == fireball_obj && check_global( "fireball_freeze" ) )
 {
 	var ice_cream = instance_find( ice_cream_obj,0 )
 	// ice_cream.frozen_enemy = self

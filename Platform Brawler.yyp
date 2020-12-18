@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "2e10056b-af58-4939-b4f0-808d14a10a3b",
+            "Value": {
+                "id": "65514975-96fe-44c7-a6f7-42d791f3a4f7",
+                "resourcePath": "objects\\back_button_obj\\back_button_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e17bd2c-6ef4-4138-a8a9-00302567c080",
             "Value": {
                 "id": "f62f4246-7a9b-4fa3-a606-7c0be66ddd97",
@@ -2175,6 +2183,14 @@
             }
         },
         {
+            "Key": "f7e56295-5639-46d8-bc8b-047c6467bd72",
+            "Value": {
+                "id": "7badacb4-3531-4ade-87e5-0b529080141e",
+                "resourcePath": "sprites\\back_button_spr\\back_button_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f836b863-25e2-4e83-8b94-50f78ba2672d",
             "Value": {
                 "id": "c6d7379e-d7fb-4deb-b7b8-bebf4d26a2f1",
@@ -2204,6 +2220,14 @@
                 "id": "e1693ebd-ad81-4919-9901-67ea2d734644",
                 "resourcePath": "objects\\knight_obj\\knight_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb092769-e133-4259-83ba-39a413ffffbf",
+            "Value": {
+                "id": "a5388795-1077-40a5-bc71-10df8e3c7fe6",
+                "resourcePath": "scripts\\reset_all\\reset_all.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2273,7 +2297,8 @@
         "fd03304d-778c-460f-9908-95eef088b852",
         "83466af3-0178-436b-b16b-67a17f76f787",
         "8c32e428-a2de-4046-a05b-9d4aec801c26",
-        "3f0c66f5-2562-4d5c-8380-26b446664b14"
+        "3f0c66f5-2562-4d5c-8380-26b446664b14",
+        "fb092769-e133-4259-83ba-39a413ffffbf"
     ],
     "tutorial": ""
 }
