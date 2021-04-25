@@ -20,5 +20,8 @@ tile_arr[t++] = blue_tiles
 tile_arr[t++] = green_tiles
 tile_arr[t++] = gold_tiles
 
-// var b = 0
-// bg_arr[b++] = bg_red_tiles
+var b = 0
+bg_arr[b++] = bg_red_tiles
+bg_arr[b++] = bg_blue_tiles
+bg_arr[b++] = bg_green_tiles
+bg_arr[b++] = bg_gold_tiles
