@@ -2,6 +2,8 @@
 
 var dt = get_dt()
 
+if( won ) dt = 0.0
+
 // -----Movement code!-----
 var x_move = ( keyboard_check( ord( "D" ) ) - keyboard_check( ord( "A" ) ) ) * move_speed * dt
 if( check_global( "green_orb" ) ) x_move *= 1.25

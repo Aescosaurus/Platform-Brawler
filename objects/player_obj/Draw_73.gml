@@ -35,5 +35,7 @@ if( hp < 1 )
 
 if( won )
 {
-	draw_sprite( you_win_spr,0,room_width / 2,room_height / 2 - 10 )
+	// draw_sprite( you_win_spr,0,room_width / 2,room_height / 2 - 10 )
+	// draw_sprite_ext( win_spr,0,0,0,1,1,0,c_white,win_percent )
+	// win_percent += win_move_spd * get_dt()
 }
