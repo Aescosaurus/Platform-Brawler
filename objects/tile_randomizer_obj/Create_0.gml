@@ -25,3 +25,9 @@ bg_arr[b++] = bg_red_tiles
 bg_arr[b++] = bg_blue_tiles
 bg_arr[b++] = bg_green_tiles
 bg_arr[b++] = bg_gold_tiles
+
+var m = 0
+mus_arr[m++] = level1_mus
+mus_arr[m++] = level2_mus
+mus_arr[m++] = level3_mus
+mus_arr[m++] = boss_mus

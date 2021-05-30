@@ -7,7 +7,9 @@ if( can_click && keyboard_check( ord( "E" ) ) )
 	
 	with( tile_randomizer_obj )
 	{
-		++cur_area
+		audio_stop_sound( mus_arr[cur_area] )
+		cur_area += 1
+		audio_play_sound( mus_arr[cur_area],1,true )
 		gen_rogue_map( room_count,exit_count,shop_count,hard_count )
 	}
 	

@@ -9,4 +9,10 @@ if( instance_number( player1_frame_obj ) > 0 )
 	set_global( "chal6",instance_find( chal6_obj,0 ).clicked )
 }
 
+if( room == config_room )
+{
+	audio_stop_sound( menu_mus )
+	audio_play_sound( level1_mus,1,true )
+}
+
 room_goto_next()

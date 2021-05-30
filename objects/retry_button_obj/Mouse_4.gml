@@ -21,6 +21,8 @@
 // player.coin_count = 0
 // instance_destroy( item_base )
 
+audio_stop_all()
+
 reset_all()
 
 room_goto( config_room )
