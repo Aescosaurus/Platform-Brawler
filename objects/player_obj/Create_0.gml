@@ -62,3 +62,7 @@ if( check_global( "chal1" ) )
 }
 
 won = false
+
+footstep_timer = 0.0
+footstep_interval = 0.25
+cur_foot = 0

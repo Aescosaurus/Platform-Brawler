@@ -93,6 +93,7 @@ else
 if( player_check_tile_corners( tilemap,x,y + y_move/* + h_height * y_dir*/ ) )
 {
 	y += y_move
+	// footstep_timer = 0.0
 }
 else if( y_dir > 0 )
 {
@@ -106,6 +107,14 @@ else if( y_dir > 0 )
 	can_jump = true
 	ouch_frames = false
 	if( image_index > 3 && image_index < 8 ) image_index = 6
+	
+	if( abs( x_move ) > 0.0 ) footstep_timer += dt
+	if( footstep_timer >= footstep_interval )
+	{
+		footstep_timer = 0.0
+		audio_play_sound( cur_foot == 0 ? footstep1_sfx : footstep2_sfx,1,false )
+		cur_foot = ( cur_foot == 0 ? 1 : 0 )
+	}
 }
 
 
