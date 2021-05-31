@@ -15,6 +15,12 @@ if( can_jump || ( x_move != 0.0 && sign( x_move ) != wall_dir ) )
 {
 	if( keyboard_check( ord( "W" ) ) && !ouch_frames )
 	{
+		if( !jumping )
+		{
+			if( can_jump ) audio_play_sound( jump_sfx,0,false )
+			else audio_play_sound( wall_jump_sfx,0,false )
+			
+		}
 		jumping = true
 		image_index = 4
 	}
@@ -82,6 +88,8 @@ else
 		wall_dir = 0
 	}
 	
+	if( sign( wall_dir ) != sign( x_dir ) ) audio_play_sound( wall_stick_sfx,0,false )
+	
 	grav = 0.0
 	jumping = false
 	can_jump = false
@@ -102,6 +110,8 @@ else if( y_dir > 0 )
 		y += y_dir
 	}
 	
+	if( grav > grav_acc * 10.0 * dt ) audio_play_sound( land_sfx,0,false )
+	
 	grav = 0.0
 	jumping = false
 	can_jump = true
@@ -112,7 +122,7 @@ else if( y_dir > 0 )
 	if( footstep_timer >= footstep_interval )
 	{
 		footstep_timer = 0.0
-		audio_play_sound( cur_foot == 0 ? footstep1_sfx : footstep2_sfx,1,false )
+		audio_play_sound( cur_foot == 0 ? footstep1_sfx : footstep2_sfx,0,false )
 		cur_foot = ( cur_foot == 0 ? 1 : 0 )
 	}
 }

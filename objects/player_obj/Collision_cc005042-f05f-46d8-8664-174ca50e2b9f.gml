@@ -1,7 +1,8 @@
 if( !ouch_frames && !invul_frames && !check_global( "player_cloak" ) )
 {
+	audio_play_sound( player_ouch_sfx,0,false )
 	// --hp and knockback and invul time
-	--hp
+	hp -= 1
 	if( check_global( "chal5" ) ) hp = 0
 	
 	var x_diff = other.x - x
