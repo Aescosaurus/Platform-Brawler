@@ -1,5 +1,7 @@
 if( ++cur_shot >= shot_timer )
 {
+	audio_play_sound( arrow2_sfx,0,false )
+	
 	cur_shot = 0
 	var player = instance_find( player_obj,0 )
 	var target_dir = player.look_dir > 0 ? 0 : 180

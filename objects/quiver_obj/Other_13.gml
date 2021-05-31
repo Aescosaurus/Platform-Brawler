@@ -1,6 +1,7 @@
 if( ++cur_shot >= shot_timer )
 {
 	cur_shot = 0
+	audio_play_sound( arrow2_sfx,0,false )
 	
 	var player = instance_find( player_obj,0 )
 	var enemy = get_rand_enemy()

@@ -1,4 +1,5 @@
 freezing = true
+audio_play_sound( freeze_sfx,0,false )
 
 // alarm_set( 0,freeze_duration )
 

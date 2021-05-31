@@ -1,6 +1,7 @@
 if( ++cur_shot >= shot_timer && instance_exists( evt_data ) )
 {
 	cur_shot = 0
+	audio_play_sound( freeze_sfx,0,false )
 	
 	// frozen_enemy = evt_data
 	// alarm_set( 0,freeze_duration )

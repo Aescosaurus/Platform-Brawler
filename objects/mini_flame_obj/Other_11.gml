@@ -5,3 +5,5 @@ fireball.speed = 1.8
 var enemy = instance_find( enemy_base,
 	irandom_range( 0,instance_number( enemy_base ) - 1 ) )
 fireball.direction = point_direction( player.x,player.y,enemy.x,enemy.y )
+
+audio_play_sound( fireball1_sfx,0,false )

@@ -1,5 +1,6 @@
 if( ++cur_shot >= shot_timer )
 {
+	audio_play_sound( special_attack1_sfx,0,false )
 	cur_shot = 0
 	
 	for( var i = 1; i < spawn_width - 1; ++i )

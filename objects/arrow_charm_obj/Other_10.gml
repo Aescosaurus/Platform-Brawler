@@ -1,6 +1,7 @@
 if( ++cur_shot >= shot_timer )
 {
 	cur_shot = 0
+	audio_play_sound( arrow2_sfx,0,false )
 	
 	for( var i = 1; i < spawn_height - 1; ++i )
 	{

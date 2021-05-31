@@ -1,3 +1,4 @@
+audio_play_sound( arrow2_sfx,0,false )
 for( var i = 0; i < instance_number( enemy_base ); ++i )
 {
 	var player = instance_find( player_obj,0 )

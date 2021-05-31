@@ -1,5 +1,6 @@
 if( !used )
 {
+	audio_play_sound( special_attack1_sfx,0,false )
 	var player = instance_find( player_obj,0 )
 	
 	if( player.hp < player.max_hp )

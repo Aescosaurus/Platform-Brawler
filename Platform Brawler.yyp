@@ -1335,6 +1335,14 @@
             }
         },
         {
+            "Key": "7acb71eb-8efb-4b94-a2c9-d7dc14d58905",
+            "Value": {
+                "id": "07a50a3b-bee4-489f-a721-9f65861d3ded",
+                "resourcePath": "sounds\\special_attack1_sfx\\special_attack1_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7bcf0f91-44fe-490a-80ee-d44c5e0d43a6",
             "Value": {
                 "id": "72e76de1-6965-4a5d-a1eb-065ca18f7780",

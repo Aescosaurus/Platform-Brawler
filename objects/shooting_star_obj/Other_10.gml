@@ -1,6 +1,7 @@
 if( ++cur_shot >= shot_timer )
 {
 	cur_shot = 0
+	audio_play_sound( star2_sfx,0,false )
 	
 	var player = get_player()
 	

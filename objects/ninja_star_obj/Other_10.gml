@@ -1,5 +1,6 @@
 if( ++cur_shot >= shot_timer )
 {
+	audio_play_sound( fireball2_sfx,0,false )
 	cur_shot = 0
 	
 	for( var i = 0; i < instance_number( enemy_base ); ++i )
