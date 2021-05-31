@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "60d713ce-02de-4f39-b843-a1cb74acf78d",
+            "Value": {
+                "id": "c9a5ce55-e77b-468f-9080-1a0560219926",
+                "resourcePath": "sounds\\wall_hit_fireball_sfx\\wall_hit_fireball_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "61441d4f-0014-4d90-84c7-f0664a164873",
             "Value": {
                 "id": "8312733e-e797-4e49-904d-9d1a03f43a40",
@@ -1075,6 +1083,14 @@
             "Value": {
                 "id": "0b77a306-40ef-4021-977d-7c327e71b1c9",
                 "resourcePath": "sounds\\boss_mus\\boss_mus.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "642f8efe-6c3b-47bb-acaf-6c8a95e250aa",
+            "Value": {
+                "id": "0404ad5d-9204-46c1-8917-4404893d903f",
+                "resourcePath": "sounds\\wall_hit_arrow_sfx\\wall_hit_arrow_sfx.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1316,6 +1332,14 @@
                 "id": "d1d7c9ac-6416-4cf0-8ba0-3e67aae44dbf",
                 "resourcePath": "sprites\\wizard_spr\\wizard_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7bcf0f91-44fe-490a-80ee-d44c5e0d43a6",
+            "Value": {
+                "id": "72e76de1-6965-4a5d-a1eb-065ca18f7780",
+                "resourcePath": "sounds\\wall_hit_reg_sfx\\wall_hit_reg_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1820,6 +1844,14 @@
                 "id": "060be7e1-0bdb-4b3b-908c-d00016c6978f",
                 "resourcePath": "scripts\\print_s\\print_s.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "afa11631-63b0-4076-90e9-4f0cb5dd4d1f",
+            "Value": {
+                "id": "116d79ab-b911-4144-aa3f-dd8b1d92bd94",
+                "resourcePath": "sounds\\wall_hit_star_sfx\\wall_hit_star_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
