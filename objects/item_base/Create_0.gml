@@ -22,6 +22,11 @@ spawn_particles( particle_spr,spawn_range,
 	0.0,part_explode_spd,
 	0.0,360.0,
 	part_spawn_count,self,self )
+
+evt_data = noone
+
+audio_play_sound( get_item_sfx,0,false )
+
 // for( var i = 0; i < part_spawn_count; ++i )
 // {
 // 	var rand_ang = random_range( 0.0,360.0 )
@@ -34,5 +39,3 @@ spawn_particles( particle_spr,spawn_range,
 // 	part.x_vel = rand_x * random_range( 0.0,part_explode_spd )
 // 	part.y_vel = rand_y * random_range( 0.0,part_explode_spd )
 // }
-
-evt_data = noone

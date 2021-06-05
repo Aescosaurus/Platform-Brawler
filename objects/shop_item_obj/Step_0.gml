@@ -8,6 +8,8 @@ if( can_click && player.coin_count >= cost && keyboard_check( ord( "E" ) ) )
 	
 	player.coin_count -= cost
 	
+	audio_play_sound( buy_item_sfx,0,false )
+	
 	instance_create_layer( x,y,"instances",item )
 	
 	instance_destroy()
