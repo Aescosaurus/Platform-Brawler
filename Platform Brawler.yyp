@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "099f6398-19bd-4b99-9310-522d8fe2a9ab",
+            "Value": {
+                "id": "85ad346e-ee00-494a-8176-3295fa883694",
+                "resourcePath": "sounds\\wall_jump_sfx\\wall_jump_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "09b7ceea-edce-4449-8895-04183e130f5f",
             "Value": {
                 "id": "94d75789-e968-4bff-9bfa-59711c137cfc",
@@ -242,7 +250,7 @@
             "Key": "10419f23-ec9c-4ef5-974d-8f8f791d4cc6",
             "Value": {
                 "id": "bba1b5cc-9005-422f-9f25-ae86bb70983b",
-                "resourcePath": "sounds\\jump_sfx\\jump_sfx.yy",
+                "resourcePath": "sounds\\jump_sfx_old\\jump_sfx_old.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2186,7 +2194,7 @@
             "Key": "d15dda51-3ba5-46d8-8de0-c362e98ec777",
             "Value": {
                 "id": "30cad171-0308-4818-ba13-aa09e65c209c",
-                "resourcePath": "sounds\\wall_jump_sfx\\wall_jump_sfx.yy",
+                "resourcePath": "sounds\\jump_sfx\\jump_sfx.yy",
                 "resourceType": "GMSound"
             }
         },
