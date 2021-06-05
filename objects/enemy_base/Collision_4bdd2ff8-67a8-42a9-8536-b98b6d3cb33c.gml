@@ -37,5 +37,7 @@ trigger_item_event( player.items,player.item_count,2,self )
 
 if( hp < 1 )
 {
+	audio_play_sound( enemy_ouch_sfx,0,false )
 	instance_destroy()
 }
+else audio_play_sound( enemy_hit1_sfx,0,false )
