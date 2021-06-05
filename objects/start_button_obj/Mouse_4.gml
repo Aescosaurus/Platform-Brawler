@@ -15,4 +15,6 @@ if( room == config_room )
 	audio_play_sound( level1_mus,1,true )
 }
 
+audio_play_sound( button_click_sfx,0,false )
+
 room_goto_next()

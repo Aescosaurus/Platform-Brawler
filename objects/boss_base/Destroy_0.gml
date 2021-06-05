@@ -39,6 +39,8 @@ ini_close()
 	var player = instance_find( player_obj,0 )
 	player.won = true
 	
+	audio_play_sound( enemy_ouch_boss_sfx,0,false )
+	
 	// if( instance_number( retry_button_obj ) < 1 )
 	{
 		instance_create_depth( room_width / 2,room_height / 2 + 10,

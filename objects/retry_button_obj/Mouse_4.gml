@@ -25,6 +25,8 @@ audio_stop_all()
 
 reset_all()
 
+audio_play_sound( button_click_sfx,0,false )
+
 room_goto( config_room )
 
 // game_start()
