@@ -15,6 +15,8 @@ if( tilemap_get_at_pixel( tilemap,x,y ) > 0 )
 		{
 			bounces += 1
 			direction += 180
+			
+			audio_play_sound( fireball_bounce_sfx,0,false )
 		}
 	}
 }

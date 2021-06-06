@@ -12,4 +12,6 @@ if( ++cur_shot >= shot_timer )
 		shot.direction = target_dir + 15 * i
 		shot.image_angle = shot.direction
 	}
+	
+	audio_play_sound( fist2_sfx,0,false )
 }

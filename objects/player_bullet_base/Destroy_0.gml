@@ -18,6 +18,8 @@ if( instance_number( enemy_base ) < 1 )
 			{
 				cur_door.image_index = cur_door.image_number - 1
 				
+				audio_play_sound( wall_break_sfx,0,false )
+				
 				tilemap_set_at_pixel( tilemap,0,cur_door.x,cur_door.y )
 			}
 		}

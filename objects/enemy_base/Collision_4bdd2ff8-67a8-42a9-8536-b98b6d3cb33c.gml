@@ -4,6 +4,8 @@ if( ( airborne && check_global( "double_air_dmg" ) ) ||
 	( freezing_dur > 0.0 && check_global( "double_frozen_dmg" ) ) )
 {
 	total_dmg += other.damage
+	
+	audio_play_sound( special_attack2_sfx,0,false )
 }
 
 if( check_global( "red_orb" ) ) total_dmg *= 1.25
@@ -22,6 +24,8 @@ if( other.object_index == fireball_obj && check_global( "fireball_freeze" ) )
 	
 	spawn_particles( particle_spr,5,10,22,315,70,
 		random_range( 30,45 ),noone,self )
+	
+	audio_play_sound( freeze_sfx,0,false )
 }
 
 // if( variable_instance_exists( other,"knockback" ) )

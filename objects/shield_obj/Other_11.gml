@@ -11,5 +11,7 @@ if( !used )
 		
 		spawn_particles( shield_particle_spr,15,10,22,315,70,
 			40,player,player )
+		
+		audio_play_sound( item_special_sfx,0,false )
 	}
 }

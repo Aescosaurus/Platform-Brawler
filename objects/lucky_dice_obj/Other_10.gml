@@ -12,4 +12,6 @@ if( ++cur_shot >= shot_timer )
 		fist.direction = point_direction( player.x,player.y,enemy.x,enemy.y )
 		fist.image_angle = fist.direction
 	}
+	
+	audio_play_sound( fist1_sfx,0,false )
 }

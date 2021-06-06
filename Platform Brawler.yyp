@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "02c1cac7-bcf5-407a-a2f1-a20b319ce263",
+            "Value": {
+                "id": "bc2ba76d-9518-4701-9463-8522311b297a",
+                "resourcePath": "sounds\\cant_buy_item_sfx\\cant_buy_item_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "05656b5d-1f5c-47db-b449-3c754cdf81a1",
             "Value": {
                 "id": "a491c4cf-4989-41a4-afbb-627abcdaeb2c",
@@ -687,6 +695,14 @@
             }
         },
         {
+            "Key": "3ebe96f7-e1ca-4ffa-a533-23e479e87281",
+            "Value": {
+                "id": "98a91091-942b-479a-b21b-cbb0f017569a",
+                "resourcePath": "sounds\\fireball_bounce_sfx\\fireball_bounce_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3eece7ff-e89a-4ee3-a7e4-a45ac775d4f4",
             "Value": {
                 "id": "e7c9eb15-d855-47fe-b1f3-1ee70870c38c",
@@ -820,6 +836,14 @@
                 "id": "3f654eff-75f3-4824-b6ba-0fa8e4bd1c6a",
                 "resourcePath": "scripts\\gen_rand_room\\gen_rand_room.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c0dcbab-196a-4295-b0c9-180407139f71",
+            "Value": {
+                "id": "0b8e12a1-7191-44b8-a5bd-6df2086c90a5",
+                "resourcePath": "sounds\\destroy_enemy_bullet_sfx\\destroy_enemy_bullet_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1367,11 +1391,27 @@
             }
         },
         {
+            "Key": "7d79bbba-7126-4de4-a985-ce9f6eee9613",
+            "Value": {
+                "id": "8b95ee41-5c29-4533-acb0-5d2d3c35679c",
+                "resourcePath": "sounds\\star_bounce_sfx\\star_bounce_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7e133d34-c71a-47de-a348-1bb177d4dee2",
             "Value": {
                 "id": "496c1310-b48e-4d82-a0ba-4269517e4840",
                 "resourcePath": "rooms\\level11\\level11.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "81eef82b-d070-4b54-9747-56fbd0f14fc1",
+            "Value": {
+                "id": "a07ad595-543b-446c-ac84-70bde9b4de28",
+                "resourcePath": "sounds\\fist2_sfx\\fist2_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1443,6 +1483,14 @@
             "Value": {
                 "id": "1b0b9018-2ab1-48dd-8a57-271fe6c61069",
                 "resourcePath": "sounds\\button_hover_sfx\\button_hover_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8aeb35b8-12c4-478e-b1d4-8e67599e0381",
+            "Value": {
+                "id": "80b6e106-f1c7-4dd8-ab20-7222e29d8ce9",
+                "resourcePath": "sounds\\item_special_sfx\\item_special_sfx.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1652,6 +1700,14 @@
                 "id": "f0e779e9-a1d6-4f65-ae10-b71bfaae819d",
                 "resourcePath": "sprites\\red_tiles_spr\\red_tiles_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a110a8aa-869e-4686-b633-8b0a4e9cfb1d",
+            "Value": {
+                "id": "d19d07dc-ffa5-4fb7-935e-9d0312b5c389",
+                "resourcePath": "sounds\\fist1_sfx\\fist1_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2172,6 +2228,14 @@
                 "id": "c78544dc-f628-456e-aa05-14ea8cdd10c2",
                 "resourcePath": "sprites\\ninja_beam_spr\\ninja_beam_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cfad90fe-5503-4b72-bc36-f13602109834",
+            "Value": {
+                "id": "0e8a4380-2640-48fd-bd54-d50110672879",
+                "resourcePath": "sounds\\special_attack2_sfx\\special_attack2_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
