@@ -5,6 +5,8 @@ if( !updated_rpos )
 {
 	updated_rpos = true
 	
+	audio_play_sound( new_room_sfx,0,false )
+	
 	// Set room as visited
 	var room_str = string( room_x ) + " " + string( room_y )
 	if( !ds_map_exists( visited_rooms,room_str ) ) ds_map_add( visited_rooms,room_str,0 )

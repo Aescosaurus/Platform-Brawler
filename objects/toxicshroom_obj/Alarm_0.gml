@@ -8,3 +8,5 @@ var bullet = instance_create_layer( x,y,"instances",en_bullet_obj )
 bullet.direction = ( move_dir > 0 ? 0 + ah_calc : 180 - ah_calc )
 bullet.gravity = 0.3
 bullet.speed = 3
+
+audio_play_sound( enemy_shoot1_sfx,0,false )

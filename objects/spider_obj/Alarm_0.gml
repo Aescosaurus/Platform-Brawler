@@ -5,4 +5,6 @@ var player = instance_find( player_obj,0 )
 	y_vel = -jump_pow
 }
 
+audio_play_sound( enemy_jump_sfx,0,false )
+
 alarm_set( 0,refire )

@@ -14,6 +14,8 @@ for( var i = 1; i < n_shots; ++i )
 	bullet.direction = ( 360 / n_shots ) * i
 }
 
+audio_play_sound( enemy_shoot2_sfx,0,false )
+
 teleporting = false
 
 alarm_set( 2,0 )

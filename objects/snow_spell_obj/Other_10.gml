@@ -1,6 +1,6 @@
 if( ++cur_shot >= shot_timer )
 {
-	audio_play_sound( freeze_sfx,0,false )
+	audio_play_sound( freeze2_sfx,0,false )
 	cur_shot = 0
 	
 	freezing = true

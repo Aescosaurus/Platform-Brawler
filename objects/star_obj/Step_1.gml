@@ -23,7 +23,11 @@
 if( tilemap_get_at_pixel( tilemap,x,y ) > 0 )
 {
 	direction += 180 + random_range( -35,35 )
-	if( --bounces < 0 ) instance_destroy()
+	if( --bounces < 0 )
+	{
+		audio_play_sound( star_hit_sfx,0,false )
+		instance_destroy()
+	}
 	else audio_play_sound( star_bounce_sfx,0,false )
 }
 

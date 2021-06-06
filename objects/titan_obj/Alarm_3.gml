@@ -7,5 +7,7 @@ for( var i = 0; i < 5; ++i )
 	bullet.direction = 180 + 20 * i
 }
 
+audio_play_sound( enemy_shoot2_sfx,0,false )
+
 y_vel = -jump_pow
 alarm_set( 4,jump_dur )

@@ -3,6 +3,8 @@ if( tilemap_get_at_pixel( tilemap,x,y ) > 0 )
 	var fireball_bounce = check_global( "fireball_bounce" )
 	if( fireball_bounce < 1 )
 	{
+		audio_play_sound( fireball_hit_sfx,0,false )
+		
 		instance_destroy()
 	}
 	else

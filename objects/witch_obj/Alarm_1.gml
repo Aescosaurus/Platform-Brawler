@@ -5,6 +5,8 @@ for( var i = 0; i < 5; ++i )
 	
 	bullet.direction = 45 * i
 }
+	
+audio_play_sound( enemy_shoot2_sfx,0,false )
 
 stalling = false
 
