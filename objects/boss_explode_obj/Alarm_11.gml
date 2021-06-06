@@ -13,4 +13,6 @@ instance_create_depth( 0,0,-10,win_obj )
 var player = instance_find( player_obj,0 )
 player.won = true
 
+audio_play_sound( enemy_ouch_boss2_sfx,0,false )
+
 instance_destroy()

@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "054c4acc-27cb-45dd-b094-71d6ec70e9fb",
+            "Value": {
+                "id": "87c41620-d3a7-449e-b8d9-01d4f3e26982",
+                "resourcePath": "sprites\\menu_spr\\menu_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05656b5d-1f5c-47db-b449-3c754cdf81a1",
             "Value": {
                 "id": "a491c4cf-4989-41a4-afbb-627abcdaeb2c",
@@ -276,6 +284,14 @@
                 "id": "f975c052-e74d-41e7-9db4-43a1ae25e3f3",
                 "resourcePath": "rooms\\level7\\level7.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "165a8e36-32eb-42c1-8129-3afb3eb4b601",
+            "Value": {
+                "id": "73992e3b-15a0-4eb9-99ea-89b7549de685",
+                "resourcePath": "sounds\\enemy_ouch_boss2_sfx\\enemy_ouch_boss2_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
