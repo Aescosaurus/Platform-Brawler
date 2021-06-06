@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "26a3710c-bae1-4f85-b53b-ec2af9f53418",
+            "Value": {
+                "id": "89e7fb40-ad09-4a5a-8073-67ae2739d10d",
+                "resourcePath": "objects\\boss_explode_obj\\boss_explode_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "284414c2-28dc-4b3e-86ee-16ea478edbc8",
             "Value": {
                 "id": "fc98f623-1177-4bd0-b529-9ce1a1892c08",
