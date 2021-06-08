@@ -8,10 +8,10 @@ if( tilemap_get_at_pixel( tilemap,x + dir * ( abs( sprite_width / 2 ) + 1 ),y ) 
 
 if( tilemap_get_at_pixel( tilemap,x,y + sprite_height ) > 0 )
 {
+	if( y_vel > -jump_pow * 0.9 ) audio_play_sound( enemy_jump_sfx,0,false )
+	
 	x_vel = sign( dir ) * jump_pow_x
 	y_vel = -jump_pow
-	
-	audio_play_sound( enemy_jump_sfx,0,false )
 }
 
 var dt = get_dt()

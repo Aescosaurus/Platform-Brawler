@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "31c787be-7dbe-453a-b031-a5eb081fe79d",
+            "Value": {
+                "id": "86fdd3cd-c9e1-4d97-a562-ff7f124f5e40",
+                "resourcePath": "sounds\\enemy_bullet_explode_sfx\\enemy_bullet_explode_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "320592d9-8b12-4311-9411-929476bec6b6",
             "Value": {
                 "id": "2c436317-73f9-4bf8-a1a3-6c78a071bca3",
@@ -1396,6 +1404,14 @@
                 "id": "61df39d1-2ba1-4b0a-b64f-9b7a32d7aa9a",
                 "resourcePath": "sounds\\next_room_sfx\\next_room_sfx.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "77d38c85-78e4-41b2-9d20-8f7baf68dfa0",
+            "Value": {
+                "id": "ac8e785c-03bc-454d-b1e5-d2d67d8a5fbd",
+                "resourcePath": "sprites\\explode_enemy_spr\\explode_enemy_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2308,6 +2324,14 @@
                 "id": "c78544dc-f628-456e-aa05-14ea8cdd10c2",
                 "resourcePath": "sprites\\ninja_beam_spr\\ninja_beam_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ce4fc94d-3c12-4451-9f70-09b8a3b550e3",
+            "Value": {
+                "id": "136d4b5b-3f0f-4054-96fd-49202a35b913",
+                "resourcePath": "objects\\explode_enemy_obj\\explode_enemy_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
