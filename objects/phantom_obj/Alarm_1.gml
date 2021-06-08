@@ -7,6 +7,8 @@ y = my_tp_spot.y
 
 my_tp_spot.x = -9999
 
+spawn_particles( particle_spr,sprite_width,8.2,18.2,0,360.0,random_range( 15,20 ),noone,self )
+
 var n_shots = 8
 for( var i = 1; i < n_shots; ++i )
 {

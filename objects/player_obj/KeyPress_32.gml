@@ -1,1 +1,1 @@
-// instance_destroy( enemy_base )
+instance_destroy( enemy_base )

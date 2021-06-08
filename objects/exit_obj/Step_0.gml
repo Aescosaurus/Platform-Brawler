@@ -23,3 +23,8 @@ if( can_click && keyboard_check( ord( "E" ) ) )
 	
 	gen_rand_room()
 }
+
+if( random_range( 0.0,1.0 ) < part_chance )
+{
+	spawn_particles( parts[image_index],sprite_width * 2,0.2,1.2,0,360.0,random_range( 0,2 ),self,self )
+}
