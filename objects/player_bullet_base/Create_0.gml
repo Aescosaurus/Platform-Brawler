@@ -1,6 +1,6 @@
 tilemap = layer_tilemap_get_id( "tiles" )
 
-damage = 12
+damage = 1
 
 wall_dest_dist = 12
 
@@ -8,3 +8,5 @@ wall_dest_dist = 12
 alarm_set( 11,20 * room_speed )
 
 knockback = 0
+
+hp = check_global( "dest_bullets" )

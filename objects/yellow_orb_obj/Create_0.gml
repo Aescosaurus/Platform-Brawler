@@ -1,3 +1,4 @@
 event_inherited()
 
-set_global( "yellow_orb",true )
+// set_global( "yellow_orb",true )
+accumulate_global( "yellow_orb" )

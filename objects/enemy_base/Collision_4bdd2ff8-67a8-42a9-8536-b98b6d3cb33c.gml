@@ -1,14 +1,24 @@
 var total_dmg = other.damage
 
-if( ( airborne && check_global( "double_air_dmg" ) ) ||
-	( freezing_dur > 0.0 && check_global( "double_frozen_dmg" ) ) )
+var air_dmg_mult = check_global( "double_air_dmg" )
+var frozen_dmg_mult = check_global( "double_frozen_dmg" )
+
+if( airborne && air_dmg_mult )
 {
-	total_dmg += other.damage
+	// total_dmg += other.damage
+	for( var i = 0; i < air_dmg_mult; ++i ) total_dmg *= 2
+	
+	audio_play_sound( special_attack2_sfx,0,false )
+}
+if( freezing_dur > 0.0 && frozen_dmg_mult )
+{
+	for( var i = 0; i < frozen_dmg_mult; ++i ) total_dmg *= 2
 	
 	audio_play_sound( special_attack2_sfx,0,false )
 }
 
-if( check_global( "red_orb" ) ) total_dmg *= 1.25
+var red_orb_mult = check_global( "red_orb" )
+for( var i = 0; i < red_orb_mult; ++i ) total_dmg *= 1.25
 
 hp -= total_dmg
 

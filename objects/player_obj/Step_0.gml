@@ -6,7 +6,9 @@ if( won ) dt = 0.0
 
 // -----Movement code!-----
 var x_move = ( keyboard_check( ord( "D" ) ) - keyboard_check( ord( "A" ) ) ) * move_speed * dt
-if( check_global( "green_orb" ) ) x_move *= 1.25
+// if( check_global( "green_orb" ) ) x_move *= 1.25
+var green_mult = check_global( "green_orb" )
+for( var i = 0; i < green_mult; ++i ) x_move *= 1.25
 var y_move = 0.0
 
 if( x_move != 0.0 ) look_dir = sign( x_move )
@@ -29,7 +31,11 @@ if( can_jump || ( x_move != 0.0 && sign( x_move ) != wall_dir ) )
 // Move up if jumping.
 if( jumping && !ouch_frames )
 {
-	y_move -= jump_pow * dt * ( check_global( "blue_orb" ) ? 1.25 : 1.0 )
+	// y_move -= jump_pow * dt * ( check_global( "blue_orb" ) ? 1.25 : 1.0 )
+	var jump_scale = 1.0
+	var blue_mult = check_global( "blue_orb" )
+	for( var i = 0; i < blue_mult; ++i ) jump_scale *= 1.25
+	y_move -= jump_pow * dt * jump_scale
 }
 
 // Update gravity things.
@@ -148,7 +154,11 @@ else
 if( can_fire && ( x_shot_vel != 0.0 || y_shot_vel != 0.0 ) )
 {
 	can_fire = false
-	alarm_set( 0,refire * ( check_global( "yellow_orb" ) ? 0.75 : 1.0 ) )
+	// alarm_set( 0,refire * ( check_global( "yellow_orb" ) ? 0.75 : 1.0 ) )
+	var shot_reset_mult = 1.0
+	var yellow_orb_mult = check_global( "yellow_orb" )
+	for( var i = 0; i < yellow_orb_mult; ++i ) shot_reset_mult *= 0.75
+	alarm_set( 0,refire * shot_reset_mult )
 	
 	if( x_dir == 0.0 && x_shot_vel != 0.0 ) image_xscale = sign( x_shot_vel )
 	
