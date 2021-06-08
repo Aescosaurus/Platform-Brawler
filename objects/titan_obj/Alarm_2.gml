@@ -8,4 +8,4 @@ for( var i = 0; i < n_shots; ++i )
 	bullet.direction = rng_start + ( 360 / n_shots ) * i
 }
 
-audio_play_sound( enemy_shoot2_sfx,0,false )
+audio_play_sound( enemy_shoot1_sfx,0,false )

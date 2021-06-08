@@ -1,6 +1,6 @@
-move_freq = 0.1 * 60.0
-dir = 0
-spd = 5
+move_freq = random_range( 0.1,0.3 ) * 60.0
+dir = -1
+spd = random_range( 5,19 )
 
 explode_chance = 0.6
 explode_count = 20
